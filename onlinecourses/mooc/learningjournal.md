@@ -124,3 +124,15 @@
     - began better way of doing exercises
       - having problem organizing the files and journal to have coherent way of doing it so I can later review and maintain what I
       - learn now.
+
+31.10/ home part
+  - now I know when to use while 
+    - User input validation (keep asking until valid input)
+    - Reading streams (until end of file/stream)
+    - Game loops (while game is running)
+    - Monitoring (while system is healthy)
+    - Converging algorithms (like the pointer example)
+  - I learned more about my starting strategy it takes time but I will persist with it
+    - refined the strategy to be blueprint/template
+  - wasted time went to bank without id
+  - 

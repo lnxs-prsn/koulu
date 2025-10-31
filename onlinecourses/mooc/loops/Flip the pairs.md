@@ -92,3 +92,17 @@ how do I model the solution / problem
             if x is odd and x != num
                 x + 1
             else print x
+
+
+solution provided by exercise maker 
+
+number = int(input("Please type in a number: "))
+ 
+index = 1
+while index+1 <= number:
+    print(index+1)
+    print(index)
+    index += 2
+ 
+if index <= number:
+    print(index)

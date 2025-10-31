@@ -183,7 +183,8 @@ num = 1
 num1 = num for x in range(1, 10): if x ==1 and num1== num: print(x) if num > 1: print(num1) num1-=1 elif x <= int(num/2)+1 and num%2!=0: if x != num1: print(x) print(num1) num1 -=1 elif num%2 == 0 and x <= int(num/2): print(x) print(num1) num1-=1
 
 solution9 problem
-- here is the real solution from task 
+
+- here is the real solution from exercise
 number = int(input("Please type in a number: "))
 
 left = 1
@@ -197,6 +198,8 @@ while left < right:
 
 if left == right:
     print(left)
+
+
 questions feelings - why did I got stuck thinking for loop? - if forgot to look at this - how I feel after above - I feel like experimenting first ideas that crossed the mind - first ideas in general are wrong - I should ignore first ideas and try to think it clearly about the problem
 
 over all - my solution works but its half longer than the ideal solution
