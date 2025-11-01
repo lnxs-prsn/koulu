@@ -1,0 +1,4 @@
+JOURNAL NOVEMBER
+
+1.11/ 60 min
+    - 

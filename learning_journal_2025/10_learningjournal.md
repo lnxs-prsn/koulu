@@ -135,4 +135,6 @@
   - I learned more about my starting strategy it takes time but I will persist with it
     - refined the strategy to be blueprint/template
   - wasted time went to bank without id
-  - 
+
+
+october learning journal has been concluded next is november journal
