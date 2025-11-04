@@ -52,7 +52,7 @@
     - will continue the THINK BEFORE DOING
       - I learned that every class should know only about things related to itself 
         - it should not know about what is done with its resuls
-        - simple way to understand is this book should know its contect, author but not its location in the library.
+        - simple way to understand is this book should know its content, author but not its location in the library.
       - project is ready for execution
 
 
