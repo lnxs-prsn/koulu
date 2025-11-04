@@ -23,3 +23,4 @@ JOURNAL NOVEMBER
     - went to tech event in today very exciting but also tiring mind is still processing things I learned.
     - next figuring out if I can learn some how grid or other patterns 
       - probably same approach as learning chess patterns get them in conseptually and it will get easier 
+      - 
