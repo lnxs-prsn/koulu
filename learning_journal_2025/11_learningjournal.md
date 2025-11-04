@@ -23,4 +23,14 @@ JOURNAL NOVEMBER
     - went to tech event in today very exciting but also tiring mind is still processing things I learned.
     - next figuring out if I can learn some how grid or other patterns 
       - probably same approach as learning chess patterns get them in conseptually and it will get easier 
-      - 
+      - learn to observe my internal solution pattern
+        - Task 7: Running Total
+          - Input: [1, 2, 3, 4] → Output: [1, 3, 6, 10]
+          - Ask: "How does each element relate to previous ones?"
+      - I think this 
+        - 1 +2
+        - 2+4 
+        - the issue is no thought is full they are fragmented
+        - starts stops in flash of moment realises that solution wont work and stops without going to the point where right solution could be found
+    - focus on learning patterns and figuring out how they grow to algorithms 
+    - 

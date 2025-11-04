@@ -1,39 +1,41 @@
-Please write a function named seven_brothers. 
-When the function is called, it should print out the names of the seven brothers in alphabetical order, 
-as in the example below. 
-See the similarly named exercise in part 1 for more details about the brothers.
+when I come back to this to review my learning 
+read below and understand the issue
+mooc tas 3.functions
 
 
-Simplify Problem → Manage First Impulse → Generate Multiple Paths → Iterative Modeling
-PROBLEM: [ Seven Brothers] REVIEW PLAYBOOK.MD
+1. Practice Pattern Recognition
+Solve similar grid/pattern problems regularly
 
-PHASE 1 - DECONSTRUCTION:
-1. Simple restatement: how you word problem controls direction you search solutions for
-2. Core pattern:
-3. Feelings: 
+Look for mathematical relationships (coordinates, indices)
 
-1.  function that prints in alphabet order
-2.  pattern is sorting
-3.  feeling that am running towards one solution idea and missing others
+Ask: "What determines each cell's value?"
 
+2. Build Your Solution Toolkit
+Learn common patterns: (i + j) % 2, sliding windows, etc.
 
+Study elegant solutions after solving problems
 
-PHASE 2 - MODELING:
-Solution 1: for loop and then if else 
-Problem: wont work as sorting might take a long while and for loop is only for an preset while
+Keep a "beautiful code" journal
 
-Solution 2: while loop and sorting with if else then appending to new list and printing new list one at a time
-Problem: 
+3. Systematic Problem-Solving Steps:
+text
+1. Understand the pattern visually
+2. Look for mathematical relationships 
+3. Consider the simplest possible building blocks
+4. Write the obvious solution first
+5. Then ask: "Can this be simpler?"
+4. Mindset Shifts:
+Trust your intuition when it says "there must be a simpler way"
 
+Spend 5 minutes thinking before writing any code
 
-Solution 3: 
-Problem:
+Solve it wrong first - then refine
 
-PHASE 3 - BREAKTHROUGH (if needed):
-Stuck detection: 
-Strategic shift: 
+Quick Exercise for This Problem:
+Take 2 minutes and ask:
 
-PHASE 4 - LEARNING:
-Key insight missed: 
-Pattern to remember: 
-Elegant solution analysis:
+"If I were a chessboard, what rule determines if a square is black or white?"
+
+"How would I explain this pattern to a 10-year-old?"
+
+The answer you'll likely arrive at: "Add the row and column numbers - if it's even, it's one color; if odd, it's the other."
