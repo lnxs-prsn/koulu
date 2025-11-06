@@ -117,6 +117,13 @@
         - How to initialize the accumulator 
         - How to iterate through the numbers
         - How to update the result correctly each time
+  - SCHOOL PART 
+    - tehny mooc kurssia kun kerenny 
+    - muuten sosialisoinut
+    - etsinyt dvorak näppäimistöä
+    - ensimmäinen market test ajatukselle
+      - pelottava/jännä
+    -   mooc ratkaisu ajattelu on paranemassa
 
 
 30.10/ home part / there is school part
