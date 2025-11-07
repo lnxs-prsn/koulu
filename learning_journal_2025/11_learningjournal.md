@@ -55,6 +55,7 @@ JOURNAL NOVEMBER
 6.11/ python tunti
   - mostly doing the course work 
     - reason is because I have problem of organizing my files
+    - unable to make the mooc work as I want it to
 
 7.11/ python tunti
   - tunnilla list comprehension
