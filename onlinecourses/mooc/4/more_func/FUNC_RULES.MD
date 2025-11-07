@@ -1,7 +1,7 @@
 BEFORE ANY PSEUDOCODE OR CODING READ THEM ALL
 5. "Input-Output Visualization"
 Spend 2 minutes mentally tracing:
-   -   how to do this ?
+   -   how to do this ? 
 
 text
 Input → [Function] → Expected Output

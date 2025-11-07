@@ -58,4 +58,9 @@ JOURNAL NOVEMBER
 
 7.11/ python tunti
   - tunnilla list comprehension
-  - 
+  - set up works 
+  - github working 
+  - from now on will shift to uv-astral
+  - still very impatient and arrogant 
+    - when in task it was necessary to find way around function that did return None but 
+    - printed value I arrogantly assumed that I know all and solution was simple looping
