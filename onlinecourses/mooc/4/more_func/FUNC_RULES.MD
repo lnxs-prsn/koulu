@@ -26,3 +26,4 @@ Before writing any function, ask:
 "What data does it need? What does it return?"
 
 
+Input → [Function] → Expected Output

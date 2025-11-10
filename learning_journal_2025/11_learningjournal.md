@@ -65,3 +65,25 @@ JOURNAL NOVEMBER
   - still very impatient and arrogant 
     - when in task it was necessary to find way around function that did return None but 
     - printed value I arrogantly assumed that I know all and solution was simple looping
+    - HOME
+    - next is tmc
+      - I made the line task too well and now I really dont need to do almost anything to pass the tasks.
+      - enjoyed learning 
+
+8.11/ home 60 min
+  - finally back at payrollsystem task
+    - honestly I can solve it but am investing in my future by learning to do it systematically
+  - good progress 
+
+9.11/ home 60 min
+  - have an problem with the code my understanding of the class structure is lacking
+
+10.11/ etä
+  - tänään oli työelämässä oppiminen tunti 
+    - Sain paljon uutta ajateltavaa ja selkeytin itselleni mihin hakeudun 
+      - minulle myös selvisi lyhyen tähtäimen kiinnostuksen kohteet
+    - sain myös tehtävän tehtyä
+  - am unable to figure out this
+    - number starts from 1 goes to 3 then  5 and keeps growing 2
+  - solved it 
+  - x+x+1

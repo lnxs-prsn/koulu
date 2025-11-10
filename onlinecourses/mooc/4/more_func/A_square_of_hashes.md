@@ -25,3 +25,9 @@ Spend 2 minutes mentally tracing:
 
 text
 Input → [Function] → Expected Output
+
+1. int > func > '*'*int
+
+
+SOLVED WITHOUT THE PROCESS
+   - peristence and diligence pays better dividence
