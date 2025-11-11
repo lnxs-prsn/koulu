@@ -1,51 +1,62 @@
 data1 = []
 num = 0
-ok = []
-
+pos1 = 0
+neg1 = 0
+passed = 0
 def is_ok(report):
     nope = False
-    num = 0
+    pos = 0
+    neg = 0 
     diff_list = []
+    ok = 0
     for index in range(len(report)):
         if index+1 < len(report):
             diff =report[index+1]-report[index]
+
             if diff > 3 or diff < -3 or diff == 0:
                 nope = True
-                diff = []
+                diff_list = []
+                ok = 0
+                
                 break
                 
             else:
                 diff_list.append(diff)
-                if len(diff_list) >1:
-                    print(diff_list[1])
-                    if diff_list[index] > diff_list[index+1] and index+1 <= len(diff_list):
-                        ok.append(1)
-                    if diff_list[index] < diff_list[index+1]and index+1 <= len(diff_list):
-                        ok.append(2)
+                if len(diff_list) == len(report)-1:
+                    for index1 in range(len(diff_list)):
+                        if diff_list[index1] < 0:
+                            neg += 1 
+                        elif diff_list[index1] < 0:
+                            pos += 1 
+                    if pos > 0:
+                        pos = 1
+                    else:
+                        neg = 1
+        
 
 
         else:
-            #print(diff)
-            #num += 1
             pass
-
-    if nope== False:
-        if len(set(ok)) == 1:
-            num += 1
-    else:
-        pass
-    return num  
+    if nope == False:
+        print(neg, pos)
+        ok += 1
+    return pos, neg, ok
 
 with open('input_2024_2.txt', 'r') as file:
     data = [tuple(map(int, line.strip().split())) for line in file.readlines()]
 
     for report in data:
-        num2 = is_ok(report)
-        num += num2
+        pos, neg, ok = is_ok(report)
+        pos1 += pos
+        neg1 += neg
+        passed += ok
+
+
+        
 
 
 
-print(num)
+print(pos1, neg1, passed)
 
 
 

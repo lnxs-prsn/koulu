@@ -87,3 +87,8 @@ JOURNAL NOVEMBER
     - number starts from 1 goes to 3 then  5 and keeps growing 2
   - solved it 
   - x+x+1
+
+
+11.11/ 
+  - did not do the journal in the home
+  - 
