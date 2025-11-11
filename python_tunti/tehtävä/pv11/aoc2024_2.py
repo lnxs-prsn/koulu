@@ -28,11 +28,14 @@ def is_ok(report):
                             neg += 1 
                         elif diff_list[index1] < 0:
                             pos += 1 
+                        elif diff_list[index1] == 0:
+                            print('whyyyyyyy')
                     if pos > 0:
                         pos = 1
-                    else:
+                    elif neg > 0:
                         neg = 1
-        
+                    else:
+                        print('nut working')
 
 
         else:
