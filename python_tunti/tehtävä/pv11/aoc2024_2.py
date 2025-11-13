@@ -2,7 +2,8 @@ data1 = []
 num = 0
 pos1 = 0
 neg1 = 0
-passed = 0
+passed = []
+print(type(passed))
 def is_ok(report):
     nope = False
     pos = 0
@@ -21,27 +22,16 @@ def is_ok(report):
                 break
                 
             else:
-                diff_list.append(diff)
-                if len(diff_list) == len(report)-1:
-                    for index1 in range(len(diff_list)):
-                        if diff_list[index1] < 0:
-                            neg += 1 
-                        elif diff_list[index1] < 0:
-                            pos += 1 
-                        elif diff_list[index1] == 0:
-                            print('whyyyyyyy')
-                    if pos > 0:
-                        pos = 1
-                    elif neg > 0:
-                        neg = 1
-                    else:
-                        print('nut working')
+                # check if all values are negative or positive
+                if max(diff) < 0:
+                    pass
+
 
 
         else:
-            pass
-    if nope == False:
-        print(neg, pos)
+            print(diff_list)
+    if nope == False and ( sum(diff_list)<0 or sum(diff_list)>0 ):
+        print(diff_list)
         ok += 1
     return pos, neg, ok
 
@@ -50,16 +40,24 @@ with open('input_2024_2.txt', 'r') as file:
 
     for report in data:
         pos, neg, ok = is_ok(report)
+        
         pos1 += pos
         neg1 += neg
-        passed += ok
 
+        if type(ok)== int and ok == 1:
+            passed.append(ok)
+        else:
+            pass #print(report)
+        
+
+
+print(len(passed))
 
         
 
 
 
-print(pos1, neg1, passed)
+# print(pos1, neg1, passed)
 
 
 
