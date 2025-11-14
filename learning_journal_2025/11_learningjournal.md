@@ -106,4 +106,5 @@ JOURNAL NOVEMBER
   - linux2 tunti 
     - learned about importance of taking snapshots when it comes to linux
     - most of it is similar to ubuntu just few feature difference
-    - 
+  - tools 
+    - ventoy
