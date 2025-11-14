@@ -91,4 +91,19 @@ JOURNAL NOVEMBER
 
 11.11/ 
   - did not do the journal in the home
-  - 
+
+12.11/ atea päivä
+  - kerkesin ohjelmoimaan vähän ja ratkaisin aoc tehtävän
+  - ja huomasin että tarvitsen problem managment systemin se ei ole sama kuin problem solving managment
+    - se auttaisi minua jotta tunnistaisin ongelmat nopeamming enkä jäisi oman ajattelun loopiin
+
+13.11/ linux tunti 1
+  - now I can say 'btw I use arch linux'
+  - its lot more fun than ubuntu as an idea I might take the plan of playing with nixos from the thought to action sooner
+
+
+14.11/ linux tunti2
+  - linux2 tunti 
+    - learned about importance of taking snapshots when it comes to linux
+    - most of it is similar to ubuntu just few feature difference
+    - 
