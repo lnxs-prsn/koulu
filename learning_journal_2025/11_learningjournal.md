@@ -100,6 +100,7 @@ JOURNAL NOVEMBER
 13.11/ linux tunti 1
   - now I can say 'btw I use arch linux'
   - its lot more fun than ubuntu as an idea I might take the plan of playing with nixos from the thought to action sooner
+  - worked on mooc
 
 
 14.11/ linux tunti2
@@ -108,3 +109,15 @@ JOURNAL NOVEMBER
     - most of it is similar to ubuntu just few feature difference
   - tools 
     - ventoy
+  - home 
+    - kept doing mooc
+
+
+15.11/ 60 min
+    - bit distracted
+    - the viope task if bit frustrating 
+      - it allows the usage of replace function
+      - but denies usage of split and join
+      - but I can get whole task done with just replace and str index method
+      - but doing so would go against my purpose of learining 
+    - over all exiciting task makes you appreciate how easy standard library makes python devs life
