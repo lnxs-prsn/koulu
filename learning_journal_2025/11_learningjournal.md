@@ -127,3 +127,9 @@ JOURNAL NOVEMBER
   - learning about html and css 
     - taking deeper dive on css as default html is understood
       - 
+16.11/ 60 min
+  - solved the viope task from yesterday
+    - I have problem of not understanding instructions in detail but in general I know what task want me to do but I dont seem to understand how it wants me to do.
+    - I need to improve on this 
+  - my solution is so simple that I am wondering if its acceptable
+  - 
