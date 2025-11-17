@@ -1,0 +1,23 @@
+.eka{
+    border: solid 2px;
+    width: 690px;
+    height: auto;
+    display: block;
+    margin: 10%;
+    padding: 5px;
+}
+
+.toka{
+    border: solid 1px;
+    display: block;
+    width: fit-content;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.mode{
+    color: aquamarine;
+    text-decoration: none;
+}
+

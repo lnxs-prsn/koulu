@@ -1,0 +1,45 @@
+body {
+    color: red;
+    background: black;
+    background-position: 50%;
+    
+}
+
+nav {
+    background-color: black;
+    border-radius: 50%;
+    background-image: url('./R.jpg');
+}
+
+nav ul li{
+    text-indent: -0%;
+    text-align: center;
+    text-decoration: none;
+   
+}
+
+nav ul li a{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+   
+}
+nav ul li a:hover {
+    color: aqua;
+    cursor: none;
+}
+
+img{
+    border: solid 2em aqua;
+    width: 25%;
+    height: 15%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+
+    
+}
+
+.eka{
+    background-color: burlywood;
+}

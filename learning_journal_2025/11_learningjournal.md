@@ -121,3 +121,9 @@ JOURNAL NOVEMBER
       - but I can get whole task done with just replace and str index method
       - but doing so would go against my purpose of learining 
     - over all exiciting task makes you appreciate how easy standard library makes python devs life
+
+
+17.11/ koulu
+  - learning about html and css 
+    - taking deeper dive on css as default html is understood
+      - 
