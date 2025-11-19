@@ -148,3 +148,14 @@ koulu
 home
   - I have now suddenly have problem misinterpretation of the mooc exercises 
   - I usually I make small but challenging to locate typos in general
+
+
+19.11/ etä
+  - challenge of the day
+    - but I do not understand with tenth look what is the pattern in the 
+  - I can solve simple problems fast but anything that needs pattern recognition takes effort 
+    - I am accumulating knowledge soon it will reach critical mass and I will start seeing patterns everywhere
+    - persistence and effort pays dividence long term
+  - mostly task went fluently soon done with the 4 chapter of the mooc
+  - one issue that even AI mentions is that I push complexity and efficiency in the stage where its not yet necessary 
+    - when looking for the patterns simplicity matters most today I have specially struggled with this aspect

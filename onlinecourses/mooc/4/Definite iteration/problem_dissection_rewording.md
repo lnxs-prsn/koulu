@@ -4,10 +4,12 @@ what you are guessing
 how are you feeling 
 
 
+Please write a function named everything_reversed, which takes a list of strings as its argument. The function returns a new list with all of the items on the original list reversed. Also the order of items should be reversed on the new list.
 
-Please write a function named distinct_numbers, which takes a list of integers as its argument. The function returns a new list containing the numbers from the original list in order of magnitude, and so that each distinct number is present only once.
+An example of how the function should work:
 
-my_list = [3, 2, 2, 1, 3, 3, 1]
-print(distinct_numbers(my_list)) # [1, 2, 3]
-
-
+my_list = ["Hi", "there", "example", "one more"]
+new_list = everything_reversed(my_list)
+print(new_list)
+Sample output
+['erom eno', 'elpmaxe', 'ereht', 'iH']
