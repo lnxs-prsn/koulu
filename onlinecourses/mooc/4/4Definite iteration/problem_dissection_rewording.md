@@ -1,4 +1,6 @@
 write down what is the problem
+    -   what are logical operation
+
 what you understand 
 what you are guessing
 how are you feeling 
@@ -13,3 +15,9 @@ new_list = everything_reversed(my_list)
 print(new_list)
 Sample output
 ['erom eno', 'elpmaxe', 'ereht', 'iH']
+
+
+
+what task wants me to do 
+
+function everything

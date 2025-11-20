@@ -159,3 +159,16 @@ home
   - mostly task went fluently soon done with the 4 chapter of the mooc
   - one issue that even AI mentions is that I push complexity and efficiency in the stage where its not yet necessary 
     - when looking for the patterns simplicity matters most today I have specially struggled with this aspect
+
+
+20.11/ etä
+  - learned today about python data type called complex
+  - getting better and better grasp about how to recognize patterns
+    - but before patterns I need to understand something called 
+      - logical operations that make up the pattern
+      - simply but even child might be able to find logical operation or two without effort 
+        - intializing a tracking variable is is logical operation 
+        - then arises what to track and how to track etc.
+      - after I learn to find logical operations I stack them and am able to find patterns 
+      - then from patterns its possible to my assumption figure out algorithms 
+  - 
