@@ -171,4 +171,9 @@ home
         - then arises what to track and how to track etc.
       - after I learn to find logical operations I stack them and am able to find patterns 
       - then from patterns its possible to my assumption figure out algorithms 
+
+
+
+21.11/ olio-ohjelmointi
+  - hopefully I get missing piece of the puzzle 
   - 
