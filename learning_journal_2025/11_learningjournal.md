@@ -174,6 +174,9 @@ home
 
 
 
-21.11/ olio-ohjelmointi
+21.11/ olio-ohjelmointi 
+koulu
   - hopefully I get missing piece of the puzzle 
-  - 
+home
+  - it was nice to be on this course things that were challenging few weeks ago 
+  - are now easier and solved lot faster 

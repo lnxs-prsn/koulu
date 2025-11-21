@@ -17,6 +17,8 @@ it calculates occurence of every letter in the string
 stores total of every letter somehow and then check the max if there is two letters with similar occurence count 
 print based on the earlier occurence in the string
 
+
+LOGICAL OPERATIONS
 init function most_common_character
 
 init storage for the most common value
@@ -35,3 +37,15 @@ evaluate if equal counts to max count exist
 order by location of occurence in the string
 
 print the letter
+
+
+PATTERNS
+
+
+accumulator pattern
+comparison pattern
+evaluation pattern
+ordering pattern
+tracking pattern
+Initialization pattern
+ iteration pattern.

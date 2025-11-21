@@ -5,3 +5,28 @@ list logical opeations 1 by 1
     -   does it need if stament or a loop
     -   etc
 -   
+
+
+
+
+Please write a function named no_vowels, which takes a string argument. The function returns a new string, which should be the same as the original but with all vowels removed.
+
+You can assume the string will contain only characters from the lowercase English alphabet a...z.
+
+An example of expected behaviour:
+
+my_string = "this is an example"
+print(no_vowels(my_string))
+Sample output
+ths s n xmpl
+
+initiate function
+get astring
+variable for storing new string
+init a loop
+find a vowel 
+remove vowel
+
+
+
+!!!!!!!! consider join() for removing the vowels instead of for loop
