@@ -9,13 +9,20 @@ print(no_vowels(my_string))
 Sample output
 ths s n xmpl
 
+
+LOGICAL OPERATIONS
+
 initiate function
 get astring
 variable for storing new string
-init a loop
+iterate string
 find a vowel 
 remove vowel
 
 
-
-!!!!!!!! consider join() for removing the vowels instead of for loop
+PATTERNS    
+init patterns
+accumulator pattern
+iterator pattern
+search pattern 
+exclusion pattern

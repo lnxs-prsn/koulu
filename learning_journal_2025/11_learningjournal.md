@@ -184,7 +184,11 @@ home
 
 
 
-24.11/ olio-ohjelmointi2
+24.11/ 
+olio-ohjelmointi2
   - making an branch to later merge it
   - figure out how to make it so that every language has their own formatter on paste
+  - I lack certain thinking models 
+home
+  - merged the branch
   - 
