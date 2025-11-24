@@ -1,0 +1,11 @@
+Repo URL: https://github.com/taitotalo-ict/Python7.git
+Websivu: https://github.com/taitotalo-ict/Python7
+
+Luoda kansio:
+mkdir "Polku\Kansion_nimi"
+
+cd "$Home\OneDrive - Taitotalo\Python7_harjoitukset\"
+git clone https://github.com/taitotalo-ict/Python7.git .
+
+# Paivitykset:
+git pull

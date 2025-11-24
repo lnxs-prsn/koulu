@@ -180,3 +180,11 @@ koulu
 home
   - it was nice to be on this course things that were challenging few weeks ago 
   - are now easier and solved lot faster 
+
+
+
+
+24.11/ olio-ohjelmointi2
+  - making an branch to later merge it
+  - figure out how to make it so that every language has their own formatter on paste
+  - 

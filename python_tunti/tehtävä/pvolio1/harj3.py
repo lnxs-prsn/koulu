@@ -27,18 +27,18 @@ class Studen():
     def __init__(self, etunimi, sukunimi):
         self.etunimi = etunimi
         self.sukunimi = sukunimi
-        self.alist = []
+        self.courselist = []
    
-    def suorkurssi(self, *args):
-        for x in args:
-            self.alist.append(x)
+    def suorkurssi(self, *courses):
+        for course in courses:
+            self.courselist.append(course)
 
-        return f'{x} lisätty suoritettuihin'
+        return f'{course} lisätty suoritettuihin'
 
 
     def printkurssi(self):
-        if self.alist:
-            for x in self.alist:
+        if self.courselist:
+            for x in self.courselist:
                 print(x)
         else:
             print(f'{self.etunimi} {self.sukunimi} has not completed any course')
@@ -46,4 +46,6 @@ class Studen():
 stde = Studen('Said', 'Ahmed')
 stde.suorkurssi('python','javascript')
 stde.printkurssi
+
+
 
