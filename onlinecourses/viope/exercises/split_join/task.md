@@ -11,15 +11,42 @@ This
 is
 a
 sentence
-The output of the program must be exactly the same as the example output (the most strict comparison level)
 
-function1 (text, character/symbol)
-    alist = text.split(chracter/symbol)
-    return alist
+LOGICAL OPERATIONS
 
-function2(alist, charcter/symbol)
-    string = character/symbol.join(alist)
-    return string
+init my_split
+
+takes sentence
+and char
+needs new list to store elements
+init loop 
+find element by locating the char in sentence
+left of the char store to list
+return list
 
 
-    
+init my_join
+takes list
+and char
+variable to store str
+variable to store list
+init loop
+when element in loop add to end of it the char
+store to str variable
+
+output
+print the string
+and loop the list
+
+
+PATTERNS
+
+init pattern
+iteration pattern
+accumlator pattern
+search pattern
+slice pattern
+join pattern
+replace pattern
+Conditional Join/Append Pattern
+
