@@ -210,3 +210,9 @@ olio-ohjelmointi3
   - START
     - reading PEP informative section
     - https://peps.python.org/#other-informational-peps
+home
+  - proceeding with mooc
+  - merged the school branch
+  - git the moocs logical operations and patterns 
+    - slowly improving on this one some tasks I feel like I got it until next task am lost fully
+    - 

@@ -1,3 +1,5 @@
+
+
 Given a list of integers, let's decide that two consecutive items in the list are neighbours if their difference is 1. So, items 1 and 2 would be neighbours, and so would items 56 and 55.
 
 Please write a function named longest_series_of_neighbours, which looks for the longest series of neighbours within the list, and returns its length.
@@ -14,3 +16,21 @@ print(longest_series_of_neighbours(my_list))
 LOGICAL OPERATIONS
 
 init func
+receive list
+store max consequtive 
+init loop
+check if concequetive elements difference 
+if difference 1 increment max 
+store all the neighbours length to list 
+return max length
+
+
+PATTERNS
+init pattern
+accumulation pattern
+iterations pattern
+evaluate pattern
+max value track pattern
+current state tracking pattern
+reset pattern
+

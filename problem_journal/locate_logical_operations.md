@@ -9,6 +9,3 @@ list logical opeations 1 by 1
 
 
 
-
-
-

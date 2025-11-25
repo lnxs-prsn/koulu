@@ -3,4 +3,3 @@ from the logical operations derive patters
 
 
 
-
