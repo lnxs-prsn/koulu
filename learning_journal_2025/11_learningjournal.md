@@ -182,6 +182,14 @@ home
   - are now easier and solved lot faster 
 
 
+22-23/ weekend
+  - did viope and began vimtutor
+  - also added 2 more extra hours for programming 
+  - its generally intended for python but anything related to programming is ok
+  - books are progressing well my understanding is growing very slowly when it comes to programming 
+    - but what ever I understand so far I have wholesome understanding most challenge is how 
+    - things connect to each other but people say repetition will solve that part.
+
 
 
 24.11/ 
@@ -189,6 +197,16 @@ olio-ohjelmointi2
   - making an branch to later merge it
   - figure out how to make it so that every language has their own formatter on paste
   - I lack certain thinking models 
+  - the tasks needed mathematical understanding to understand the question but question itself was simple 
+    - after encrypting it.
 home
   - merged the branch
-  - 
+  - did mooc
+
+
+25.11/ 
+olio-ohjelmointi3
+  - reviewing the yesterday
+  - START
+    - reading PEP informative section
+    - https://peps.python.org/#other-informational-peps
