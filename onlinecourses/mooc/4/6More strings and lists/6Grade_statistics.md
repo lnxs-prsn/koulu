@@ -56,3 +56,56 @@ Sample output
 Exam points and exercises completed: 15 87
 
 You have to first split the input line in two and then convert the sections into integers with the int function. Splitting the input can be achieved in the same way as in the exercise First, second and last words, but there is a simpler way as well. The string method split will chop the input up nicely. You will find more information by searching for python string split online.
+
+
+
+LOGICAL OPERATIONS 
+
+init loop
+ask user an question
+receive answer
+check if the answer is 2 numeric values 
+first value is 0-20 and second value is 0-100 
+split the answer to separate numbers if there is space between them 
+init 2 list named exam points and exercise completed
+add first numbers to exam point list and second number to exercise completed list
+if program receives empty string end  the loop
+
+PATTERNS
+    -   init pattern
+    -   conditional  loop execution pattern
+    -   split pattern
+    -   accumulation pattern
+    -   check and evaluate  pattern
+    -   input pattern
+
+
+
+
+make course statistics
+init loop
+init dictionary with 6 keys and empty list as values 
+convert completed exercises to exercise points: completed exercise/10  convert to int
+if exam point is less than 10 its automatic fail there is no need to further calculate the exercise points
+sum both points
+chech the range sum fits in that is the grade studen got
+add to dictionary
+
+PATTERNS
+    -  init pattern
+    -  conversion pattern
+    -  accumulation pattern
+    -  check and match pattern
+    -  
+
+presentation
+
+init loop
+calculate averages and %
+print dict in decending order format as in example 
+
+
+PATTERNS
+    -   init pattern
+    -   computation patternt
+    -   output pattern

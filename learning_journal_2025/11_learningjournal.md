@@ -230,4 +230,9 @@ home
               - example initially there is no relationship so status is 0
             - and sequences start from 1 up 
               - example if row call starts from you then you are #1
-  - 
+  - learned a lot while doing last task of the day grade statistics
+    - now I can made coherently design decision 
+      - without feeling overhelmed by solution options.
+      - also I can make one decision at a time and build program 
+      - chronologically instead of chaos process with coherent outcome
+
