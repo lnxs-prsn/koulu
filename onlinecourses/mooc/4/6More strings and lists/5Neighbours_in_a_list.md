@@ -1,3 +1,10 @@
+I TRIED TO SOLVE AND TASK OF !!find the maximum number of consecutive difference-of-1 pairs!!
+INSTEAD OF SOLVING THE TASK MOOC GAVE ME
+
+I DONT YET KNOW WHAT OCCURED BUT I WAS SOLVING AN WRONG TASK LUCKILY SOLUTIONS ARE VERY CLOSE
+
+
+
 
 
 Given a list of integers, let's decide that two consecutive items in the list are neighbours if their difference is 1. So, items 1 and 2 would be neighbours, and so would items 56 and 55.
@@ -21,7 +28,7 @@ store max consequtive
 init loop
 check if concequetive elements difference 
 if difference 1 increment max 
-store all the neighbours length to list 
+store all the consequetive neighbours length to list 
 return max length
 
 
@@ -34,3 +41,8 @@ max value track pattern
 current state tracking pattern
 reset pattern
 
+
+!!! SOLUTION! PROBLEM IS THAT THIS IS TASK SEARCHES CONSEQUENTIVE SEQUENCE AND CONSEQUETIVE SEQUENCE ALWAYS STARTS 
+FROM 1. 
+
+I WOULD HAVE NEEDED AND AN VARIABLE THAT IS INITIATED WITH 1 TO STORE RUNNING CURRENT

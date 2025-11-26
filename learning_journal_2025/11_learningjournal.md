@@ -215,4 +215,19 @@ home
   - merged the school branch
   - git the moocs logical operations and patterns 
     - slowly improving on this one some tasks I feel like I got it until next task am lost fully
-    - 
+
+26.11/ !!!
+  - 5Neighbours_in_a_list
+    - I HAD SOME CLITCH I SOLVED DIFFERENT TASK THAN I WAS ASSIGNED
+      - luckily fix is easy
+    - I learned something new alhamdulillaah I persisted on the simple problem
+      - after checking every step of the situation 
+        - task instructions, logical operations and patterns 
+        - I found out that I  made an common mistake in general but to me an new revelation
+          - I confused the initiation of 
+            - sequence length counting and relationship counting
+            - issue is this relationships start from 0 up 
+              - example initially there is no relationship so status is 0
+            - and sequences start from 1 up 
+              - example if row call starts from you then you are #1
+  - 
