@@ -245,4 +245,7 @@ home
       - reason is that execution will vary throught the career but process reaching it will be constant most of the time
       - so its better to invest time on quality constant than varying outcome
       - this means naive solution is good enough 
+  - mooc 4 is done 
+  - FINALLY GOT TO USE THE REWORDING TEMPLATE
+    - it made confusion go away in an second
   - 
