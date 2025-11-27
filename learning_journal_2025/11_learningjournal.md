@@ -216,7 +216,7 @@ home
   - git the moocs logical operations and patterns 
     - slowly improving on this one some tasks I feel like I got it until next task am lost fully
 
-26.11/ !!!
+26.11/ !!!etä
   - 5Neighbours_in_a_list
     - I HAD SOME CLITCH I SOLVED DIFFERENT TASK THAN I WAS ASSIGNED
       - luckily fix is easy
@@ -236,3 +236,13 @@ home
       - also I can make one decision at a time and build program 
       - chronologically instead of chaos process with coherent outcome
 
+
+
+
+27.11/ etä
+    - from now on the exection process will be simplified so 
+    - I can learn most from the process
+      - reason is that execution will vary throught the career but process reaching it will be constant most of the time
+      - so its better to invest time on quality constant than varying outcome
+      - this means naive solution is good enough 
+  - 
