@@ -248,4 +248,14 @@ home
   - mooc 4 is done 
   - FINALLY GOT TO USE THE REWORDING TEMPLATE
     - it made confusion go away in an second
-  - 
+
+
+28.11/ 
+olio4pv
+- ask AI about these 
+  - Iterative approach: Avoid recursion and repeated list creation.
+    - explain this 
+  - Count-based simulation: Instead of storing every stone, store counts of each value and update
+    - them per blink.
+  - This reduces memory from billions of integers to a dictionary of counts.
+    - explain this too 
