@@ -1,7 +1,3 @@
-reword the problem to see If  I understand what task intends to achieve
-
-
-
 what have you done so far
 
 
@@ -71,10 +67,23 @@ In this example, after blinking six times, you would have 22 stones. After blink
 
 Consider the arrangement of stones in front of you. How many stones will you have after blinking 25 times?
 
-to turn this to recursive function take a list  and int
 
-if int == 0 return list
-go through every element of list check with if else statement if the 2 rules apply in the else apply the third rule 
-store result of the rules to new list 
+LOGICAL OPERATIONS 
 
-then call the function again with with new list and int - 1
+    -   init func 
+    -   receive list and int 
+    -   set end rule for the recursive function
+    -   init loop 
+    -   check how the 3 rules apply to every element  
+    -   append the results to new list 
+    -   give new list to function and set int -1
+-   
+
+
+PATTERNS 
+    -   init pattern 
+    -   validation pattern 
+    -   iteration pattern
+    -   accumulation pattern
+    -   check and mutate pattern
+    -   passing pattern
