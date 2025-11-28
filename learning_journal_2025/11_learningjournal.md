@@ -252,10 +252,15 @@ home
 
 28.11/ 
 olio4pv
-- ask AI about these 
-  - Iterative approach: Avoid recursion and repeated list creation.
-    - explain this 
-  - Count-based simulation: Instead of storing every stone, store counts of each value and update
-    - them per blink.
-  - This reduces memory from billions of integers to a dictionary of counts.
-    - explain this too 
+  - ask AI about these 
+    - Iterative approach: Avoid recursion and repeated list creation.
+      - explain this 
+    - Count-based simulation: Instead of storing every stone, store counts of each value and update
+      - them per blink.
+    - This reduces memory from billions of integers to a dictionary of counts.
+      - explain this too 
+  - the class was fun today.
+    - it was exciting to see my slow but easy to problem dissection plan in motion 
+    - I probably reached the solution last but I actually understood myself instead of just grinding blindly to frustration
+    - it feels good after long struggle to understand python.
+    - 
