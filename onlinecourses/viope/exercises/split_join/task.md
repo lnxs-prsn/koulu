@@ -22,6 +22,7 @@ needs new list to store elements
 init loop 
 find element by locating the char in sentence
 left of the char store to list
+if last char also store the right of the char
 return list
 
 
@@ -49,4 +50,5 @@ slice pattern
 join pattern
 replace pattern
 Conditional Join/Append Pattern
+output pattern
 

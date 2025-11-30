@@ -263,4 +263,24 @@ olio4pv
     - it was exciting to see my slow but easy to problem dissection plan in motion 
     - I probably reached the solution last but I actually understood myself instead of just grinding blindly to frustration
     - it feels good after long struggle to understand python.
+
+
+29.11/ 60min
+  - read the algorithm book 
+    - am problematic reader when it comes to information book
+      - constantly am checking if the information is as claimed wasted half hour checking how valid is 
+        - log n! problem 
+          - ignorant speculation is solution is not per se an algorithm but mix of algorithms 
+  - 40 min wasted checking zagg website empty legend key board 
+  - bit distracted at the moment 
+  - finished the mooc from yesterday 
+  - next is viope 
+    - might give myself an extra time for later 
+
+
+30.11/ 60min
+  - still bit distracted 
+  - continued the viope
+    - had to fix the code to make it more simple 
+    - issue  I have is that I dont know how to make the output similar to expected output 
     - 
