@@ -29,5 +29,5 @@ def my_join(alist: list, char: str):
             string += word
         else:
             string += word+char
-    return string
+    return ''
 print(my_join(alist, ','))

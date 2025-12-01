@@ -289,4 +289,10 @@ olio5pv
   - learned about dataclasses
     - they make class making faster
     - but its rigid
-  - 
+home
+  - the book I thought of reading might not be best for this course as 
+    - the examples are in c++ and am learning python 
+    - what book teaches is what I need but wrapping my head over different language to 
+    - learn programming problem solving processes might not be worth it
+  - next homework
+    - 
