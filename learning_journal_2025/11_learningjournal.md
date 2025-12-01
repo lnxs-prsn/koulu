@@ -283,4 +283,10 @@ olio4pv
   - continued the viope
     - had to fix the code to make it more simple 
     - issue  I have is that I dont know how to make the output similar to expected output 
-    - 
+
+1.12/ 
+olio5pv
+  - learned about dataclasses
+    - they make class making faster
+    - but its rigid
+  - 
