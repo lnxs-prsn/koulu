@@ -295,4 +295,37 @@ home
     - what book teaches is what I need but wrapping my head over different language to 
     - learn programming problem solving processes might not be worth it
   - next homework
-    - 
+    - did most of the task
+    - am not sure if I understood the task correctly 
+  - OVER ALL
+    - I have began slipping on the discipline 
+      - might need drill week to train the basics of self conduct
+
+
+2.12/ home
+  - finished the school task 
+    - not sure if I did it correctly as I have never done this before
+  - next is mooc
+    - bit distracted 
+      - I have said this few times now 
+        - RETURN TO ADDRESS LATER
+  - section of mooc done 1/4
+    - most looks very easy but I will use time learning 'THINK BEFORE YOU CODE' 
+      - I have found that programming is more enjoyable and faster when I think ahead
+        - what are the requirements of the task 
+        - what does it limit me from doing 
+        - how much over engineering will I permit for myself
+        - what architectural decision need to be made now so I avoid endless fix as you proceed 
+          - then return to change something as something did not work out as intended
+        - this allows me to see myself and my lackings better
+
+3.12/ 
+etä
+  - today was ohjaus 
+    - I fixed my misunderstandings so far 
+    - rest of the day I have been doing mooc
+      - now on I will focus on the design pattern recognition 
+        - I found out that the coding part no matter how complex it might appear 
+        - after the desing phase takes max 15 min 
+        - I have already by then made the design decision and am in flow mode 
+        - so am more productive 

@@ -78,4 +78,4 @@ class Square:
     
     def __repr__(self) -> str:
         '''Representation of the square.'''
-        pass
+        return f'Square={self.square} hit_status={self.square} '
