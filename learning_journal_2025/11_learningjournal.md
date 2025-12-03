@@ -326,6 +326,6 @@ etä
     - rest of the day I have been doing mooc
       - now on I will focus on the design pattern recognition 
         - I found out that the coding part no matter how complex it might appear 
-        - after the desing phase takes max 15 min 
+        - after the design phase takes max 15 min 
         - I have already by then made the design decision and am in flow mode 
         - so am more productive 
