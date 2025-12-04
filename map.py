@@ -1,9 +1,3 @@
-# char = '•'
-# alpha = 'ABCDEFGHIJ'
-
-# for index, letter in range(len(alpha))
-
-
 # Standard modules
 from random import choice
 from typing import TYPE_CHECKING
@@ -28,41 +22,24 @@ class Map:
 
     The map can be printed (or converted to a string) with the __str__ method.
     '''
-    # map = list of list
-    # 
     def __init__(self, width: int, height: int) -> None:
-        self.width = width
-        self.height = height
-        self.squares = {Coordinates(x,y): Square() for x in range(width)for y in range(height)}
-        self.ships = {}
+        pass
 
     def __contains__(self, coordinates: 'Coordinates') -> bool:
         '''Returns True if the map contains the given coordinates. False otherwise.'''
-        # if coordinates in (range(self.width),range(self.height)):
-        #     return True
-        # else:
-        #     return False
-        return coordinates in self.squares
-           
-
-    
+        pass
 
     def _get_square(self, coordinates: 'Coordinates') -> Square:
         '''Returns the square at the given location. Raise an Exception if coordinates are outside the map.'''
-        if coordinates not in self.squares:
-            raise IndexError
-        return self.squares[coordinates]
-        
+        pass
 
     def _get_neighbor_locations(self, location: 'Coordinates') -> list['Coordinates']:
         '''Returns a list of locations (Coordinates) around a given location. Coordinates outside the map are discarded.'''
-        #return self.squares[location].get_neighbor() # what is wrong with this ?
-        return [neighbor for neighbor in location.get_neighbors() if neighbor in self]
+        pass
 
     def _get_neighbor_squares(self, location: 'Coordinates') -> list[Square]:
         '''Returns the list of (valid) squares around a given location.'''
-        # return self.squares[location].get_neighbors_locations() # what is wrong with this 
-        return [self.squares[neighbor] for neighbor in self._get_neighbor_locations(location)]
+        pass
 
     def _get_locations_if_valid(self, initial_location: 'Coordinates', facing: 'Direction', length: int) -> None|list[Coordinates]:
         '''Returns a list of locations for a ship in the given direction, with the given length and from the given initial location.
@@ -116,14 +93,11 @@ class Map:
     
     def add_ship_random(self, ship: 'Ship') -> None:
         '''Adds the ship given as parameter in a random position of the map.'''
-        while True:
-            if self._add_ship(ship, self._get_random(), Direction.get_random):
-                break
-
+        pass
 
     def _get_random(self) -> 'Coordinates':
         '''Return random coordinates from the map.'''
-        return choice(list(self.squares.keys()))
+        pass
     
     def _get_coordinates_from_map_coordinates(self, map_location: str) -> 'Coordinates':
         '''Get the general coordinates (x, y) that correspond to a certain map coordinates (eg. B7).'''
@@ -144,13 +118,11 @@ class Map:
 
     def hit(self, map_coordinates:str) -> 'Ship|None':
         '''Hit/attack a certain map coordinates. Returns the result of the hit from the square.'''
-        Coordinates = self._get_coordinates_from_map_coordinates(map_coordinates)
-        return self.squares[Coordinates].hit()
+        pass
 
     def is_hit(self, map_coordinates: str) -> bool:
         '''Checks whether a certain map coordinates have been hit before. Returns the result from the square.'''
-        Coordinates = self._get_coordinates_from_map_coordinates(map_coordinates)
-        return self.squares[Coordinates].is_hit()
+        pass
 
     def mark_neighbors(self, ship: 'Ship') -> None:
         '''Mark all neighbors of the given ship as hit. Returns None.'''
