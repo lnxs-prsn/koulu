@@ -11,7 +11,7 @@ class Sea:
 
     def hit(self) -> None:
         '''Sea receives a hit. Returns None.'''
-        self.square.is_empty() = True
+        self.square.is_hit = True
         return None
 
     def is_hit(self) -> bool:
@@ -30,33 +30,42 @@ class Square:
     A class that represents a square of the map. A square can contain a part of the sea or a part of a ship.
     Default is to contain a part of the sea. A part of a ship can be added later, but once added it can't be changed.
     '''
-    def __init__(self, square: ShipPart | str= '·') -> None:
-        if isinstance(square, ShipPart):
-            self.square = square
-        else:
-            self.square = '·'
+    def __init__(self) -> None:
+        # if isinstance(square, ShipPart):
+        #     self.square = square
+        # else:
+        #     self.square = '·'
+        self.content = Sea(self)
 
     def is_empty(self) -> bool:
         '''Returns True is this square contains a part of the sea. False if there is a ship part in this space.'''
-        if isinstance(self.square, ShipPart):
-            return False
+        # if isinstance(self.square, ShipPart):
+        #     return False
+        # else:
+        #     True
+        if isinstance(self.content, Sea):
+            return True
         else:
-            True
+            return False
 
     def set_ship_part(self, ship_part: 'ShipPart') -> None:
         '''Sets this square to contain the given ship part. Returns None.'''
-        self.square = ShipPart
-        return None
+        # self.square = ShipPart
+        # return None
+        if not self.is_empty():
+            raise Exception
+        self.content = ship_part
 
     def hit(self) -> 'Ship|None':
         '''Hits the content of this square and returns what that content returns (a ship if a ship part is hit or None if it is sea).'''
-
-        return self.square.hit()
+        # return self.square.hit()
+        return self.content.hit()
 
 
     def is_hit(self) -> bool:
         '''Returns whether this square has been hit already.'''
-        return self.square.is_hit()
+        # return self.square.is_hit()
+        return self.content.is_hit()
 
     def __str__(self) -> str:
         '''
@@ -66,16 +75,19 @@ class Square:
            - '#': Ship part that has not been hit.
            - 'X': Ship part that has been hit.
         '''
-        match self.square:
-            case _ if isinstance(self.square, ShipPart) == True and self.square.is_hit() == False:
-                return '#'
-            case _ if isinstance(self.square, ShipPart) == True and self.square.is_hit() == True:
-                return 'X'
-            case _ if isinstance(self.square, ShipPart) == False and self.square.is_hit() == False:
-                return '·'
-            case _:
-                return 'o'
+        # match self.square:
+        #     case _ if isinstance(self.square, ShipPart) == True and self.square.is_hit() == False:
+        #         return '#'
+        #     case _ if isinstance(self.square, ShipPart) == True and self.square.is_hit() == True:
+        #         return 'X'
+        #     case _ if isinstance(self.square, ShipPart) == False and self.square.is_hit() == False:
+        #         return '·'
+        #     case _:
+        #         return 'o'
+        return self.content.__str__()
+        # return str(self.content) # alternative way to do above
     
     def __repr__(self) -> str:
         '''Representation of the square.'''
-        return f'Square={self.square} hit_status={self.square} '
+        # return f'Square={self.square} hit_status={self.square} '
+        return f'<Square={self.content}> '
