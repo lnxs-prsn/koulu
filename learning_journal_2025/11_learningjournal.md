@@ -329,3 +329,24 @@ etä
         - after the design phase takes max 15 min 
         - I have already by then made the design decision and am in flow mode 
         - so am more productive 
+
+
+4.12/
+oliopv6
+  - great day after a while I was quite out of my comfort zone
+    - I generally knew how I could do it as I imagined
+      - but I could not grasp at all how the teacher intended to do 
+      - and I still dont understand  
+        - I will use AI to go through the game to understand what was the problem for me not understanding 
+home 
+  - It was an great moment I have finally reached step where I can get rid of my confusion about OOP 
+  - got multiple exercises with AI and figured out why I succeed so well with functions but fail so miserably with objects 
+    - I do not know arrow direction of the dependencies because the OOP logic is nigh opposite to real life arrows of depedencies between objects 
+
+5.12/ self study day
+  - got myself drills to cement my understanding about arrow direction patterns with OOP 
+    - really enjoying today it feels great to get rid of ignorance.
+    - will pull the exercises through the problem journal and store to new folder of concepts 
+    - It seems bit more challenging than I thought to figure out the OOP design but I feel that I grasp more every time I try
+  - passed on going to bitcoin event am feeling that by the end of the day I will have better understanding of the python if I keep at it
+  - I am understanding the arrow flow of the objects relationships
