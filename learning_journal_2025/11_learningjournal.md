@@ -350,3 +350,13 @@ home
     - It seems bit more challenging than I thought to figure out the OOP design but I feel that I grasp more every time I try
   - passed on going to bitcoin event am feeling that by the end of the day I will have better understanding of the python if I keep at it
   - I am understanding the arrow flow of the objects relationships
+
+6.12/ 60 min
+  - the viope task was very easy I just misunderstood the exercise
+  - dont know which day it is since I began 
+  - am still curious and learning more 
+    - my present challenges appear to be mostly reading comprehension as that appears to be my biggest time waste
+      - I have succeeded cutting it down by adding 'did I understand it correctly' at the beginning of every task I start
+    - other challenges are emptiness of my conceptual library 
+      - OOP concepts are easy to comprehend but challenging to apply to this issue 
+        -  or at least I assume this is the case.

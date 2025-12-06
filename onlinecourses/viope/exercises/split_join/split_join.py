@@ -1,6 +1,6 @@
 sentence = 'hello this is sentence'
 char = ' '
-def my_slice(sentence, char):
+def my_split(sentence, char):
     blist = []
     element = ''
     for index, x in enumerate(sentence):
@@ -18,7 +18,7 @@ def my_slice(sentence, char):
         
     return blist
     print(blist)
-alist = my_slice(sentence, ' ')
+# alist = my_slice(sentence, ' ')
 
 
 
@@ -29,5 +29,9 @@ def my_join(alist: list, char: str):
             string += word
         else:
             string += word+char
-    return ''
-print(my_join(alist, ','))
+
+    return string
+
+print(my_join(my_split(sentence, ' '),','))
+print(my_join(my_split(sentence, ' '),'\n'))
+
