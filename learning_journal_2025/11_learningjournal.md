@@ -360,3 +360,8 @@ home
     - other challenges are emptiness of my conceptual library 
       - OOP concepts are easy to comprehend but challenging to apply to this issue 
         -  or at least I assume this is the case.
+
+7.12/ 60min
+  - began bit slow the viope project
+    - its simple but I might get suprises later on.
+  - the book is good first 5 min helped me to coordinate my effort better in learning
