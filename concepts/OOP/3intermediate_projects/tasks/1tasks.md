@@ -25,8 +25,11 @@ Let me give you exercises at the **RIGHT level** for your Python course:
 
 # Python implementation questions:
 # 1. When Book is borrowed, which object updates the status?
+    -   library updates
 # 2. How does Library know which Books are available?
+    -   library checks its list of books and checks their state
 # 3. What method does Member call to borrow a Book?
+    -   I dont now exact but member calls the library and library calls method of the book
 ```
 
 ### **Exercise 3: Social Media (Basic)**

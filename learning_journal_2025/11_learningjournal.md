@@ -376,3 +376,13 @@ iopv
   - went well drilled further my understanding  about 
     - OOP concepts 
     - knocked on the door of system design with the help of AI
+  - progressed quite well
+    - had to stop myself going too deep to system design 
+      - my current scope is just learn OOP design principles and its logical flow of process
+        - which is central node etc
+  - day went pleasanty forgot few times to take break but else all good 
+    - at somepoint had to take power nap as I had cooked the brains too much
+  - 7 domain modeling templates I made now ensure almost 100% success when figuring out how data and authority flows in object programming
+    - without them I default to my incorrect assumptions and reach 50% success rate
+  - good day I yet have not programmed single line of code
+    - I have focused on improving my conseptual undestanding 
