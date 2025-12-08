@@ -1,8 +1,3 @@
-what is the action object or objects 
-are doing
-
-
-
 ### **Exercise 1: Simple Game Objects**
 # Game → Player? (Game manages players)
 # Player → Game? (Player knows which game they're in)

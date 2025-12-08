@@ -1,0 +1,78 @@
+Here are more exercises in the same format:
+
+## **5. Library and Book**
+```python
+# Library → Book? (Library has books)
+# Book → Library? (Book knows which library it belongs to)
+```
+
+## **6. Teacher and Classroom**
+```python
+# Teacher → Classroom? (Teacher teaches in classroom)
+# Classroom → Teacher? (Classroom has assigned teacher)
+```
+
+## **7. Restaurant and Menu**
+```python
+# Restaurant → Menu? (Restaurant offers menu)
+# Menu → Restaurant? (Menu belongs to restaurant)
+```
+
+## **8. Bank and Account**
+```python
+# Bank → Account? (Bank manages accounts)
+# Account → Bank? (Account knows its bank)
+# Account → Customer? (Account belongs to customer)
+# Customer → Account? (Customer owns accounts)
+```
+
+## **9. Airline and Flight**
+```python
+# Airline → Flight? (Airline operates flights)
+# Flight → Airline? (Flight is operated by airline)
+# Flight → Passenger? (Flight has passengers)
+# Passenger → Flight? (Passenger books flights)
+```
+
+## **10. Hospital and Patient**
+```python
+# Hospital → Patient? (Hospital treats patients)
+# Patient → Hospital? (Patient is treated at hospital)
+# Doctor → Patient? (Doctor treats patients)
+# Patient → Doctor? (Patient has assigned doctor)
+```
+
+## **11. E-commerce Order System**
+```python
+# Customer → Order? (Customer places orders)
+# Order → Customer? (Order belongs to customer)
+# Order → Product? (Order contains products)
+# Product → Order? (Product appears in orders)
+```
+
+## **12. Social Media Post**
+```python
+# User → Post? (User creates posts)
+# Post → User? (Post knows its author)
+# Post → Comment? (Post has comments)
+# Comment → Post? (Comment belongs to post)
+# Comment → User? (Comment made by user)
+```
+
+## **13. University Course System**
+```python
+# Course → Student? (Course has enrolled students)
+# Student → Course? (Student takes courses)
+# Course → Professor? (Course taught by professor)
+# Professor → Course? (Professor teaches courses)
+```
+
+## **14. Smart Home System**
+```python
+# User → Device? (User controls devices)
+# Device → User? (Device has owner)
+# Hub → Device? (Hub manages devices)
+# Device → Hub? (Device connects to hub)
+```
+
+**Instructions for all exercises:** For each pair, write minimal Python class skeletons showing only the attribute references (arrows) that would implement the relationships described.

@@ -1,0 +1,191 @@
+**This is an important observation.** You're seeing a potential **cognitive dependency** - the student might be relying on the **structure you provide** rather than developing their own analytical framework.
+
+## **The Challenge: Moving From Structured Templates to Independent Thinking**
+
+The student needs to transition from:
+**"Fill in these boxes"** → **"Design your own boxes"**
+
+Here are **more complex scenarios** that break their pattern:
+
+---
+
+## **Advanced System Design Scenarios**
+
+### **1. The "Three-Way Paradox"**
+```
+Smart Home Security System:
+- Owner installs cameras
+- Police can request footage during emergencies
+- AI detects intruders automatically
+- Neighbors get alerts about nearby break-ins
+
+Questions:
+1. Who can view the footage? (Owner, Police, AI, Neighbors?)
+2. Who overrides whom during a break-in?
+3. What if police request conflicts with privacy settings?
+4. Who gets notified first?
+```
+
+**This breaks their binary thinking** - it's not just "A → B", it's **multiple stakeholders with conflicting authorities**.
+
+### **2. The "Circular Marketplace"**
+```
+Crypto Exchange:
+- Traders place buy/sell orders
+- Market makers provide liquidity
+- Exchange matches trades
+- Regulators audit transactions
+- Smart contracts execute automatically
+
+Questions:
+1. Who initiates a trade? (Trader wants, Market maker offers)
+2. Who has final authority? (Exchange rules, Regulator laws, Code execution)
+3. What happens when smart contract bugs conflict with regulations?
+```
+
+**This introduces competing authorities** - legal vs technical vs business.
+
+### **3. The "Delegated Authority" Challenge**
+```
+Hospital System:
+- Patient arrives at ER
+- AI triage system assesses urgency
+- Doctor examines (with AI recommendations)
+- Insurance approves/denies treatment
+- Hospital admin allocates resources
+
+Questions:
+1. Who decides treatment? (Doctor, AI, Insurance, Admin?)
+2. Can AI override junior doctor? Can senior doctor override AI?
+3. What if insurance denies but doctor says it's emergency?
+4. Where does legal liability lie?
+```
+
+**This forces thinking about delegation chains and liability**.
+
+### **4. The "Temporal Authority" Problem**
+```
+Real Estate Platform:
+- Seller lists property
+- Buyer makes offer
+- Agent negotiates
+- Bank approves mortgage
+- Lawyer reviews contract
+- Inspector finds issues
+- Buyer renegotiates
+
+Questions:
+1. Authority changes at each stage - map the flow
+2. Can previous actors revoke authority? (Seller changes mind after acceptance)
+3. What about contingent authorities? (Bank only approves IF inspector approves)
+```
+
+**Authority here is time-bound and conditional**.
+
+---
+
+## **The Real Test: Remove the Scaffolding**
+
+Instead of giving them the relationships, give them **only the problem**:
+
+### **Problem Statement Only:**
+```
+Design a pandemic contact tracing system:
+- People install app voluntarily
+- Phones detect nearby devices via Bluetooth
+- If someone tests positive, they can anonymously alert contacts
+- Health authorities get aggregate data (not individual)
+- Employers want to know if employees were exposed
+- Privacy advocates want zero data collection
+
+NO RELATIONSHIPS GIVEN. You must:
+1. Identify ALL relevant objects/actors
+2. Determine authority flows
+3. Handle conflicting requirements
+4. Design for privacy vs public health tradeoffs
+```
+
+### **Or Even More Open-Ended:**
+```
+"Design a system where users can collaboratively edit documents
+while maintaining version history, handling conflicts,
+and managing different permission levels."
+
+That's it. No arrows. No "User → Document?" hints.
+```
+
+---
+
+## **Spotting "Template Dependency"**
+
+If the student struggles without the template, they've **learned the template, not the thinking**. Signs:
+
+✅ **Good sign**: Student adds NEW categories to your template  
+❌ **Bad sign**: Student rigidly follows EXACT template format  
+✅ **Good sign**: Student questions YOUR template structure  
+❌ **Bad sign**: Student says "I don't know" when template doesn't fit  
+
+---
+
+## **Teaching Strategy Shift**
+
+Instead of:
+```
+# Given: A → B? (Description)
+# Student fills: ACTION, PARTICIPANTS, etc.
+```
+
+Try:
+```
+**Scenario**: [Complex real-world situation]
+**Questions**:
+1. What are the core entities? (Not just obvious ones)
+2. What are the hidden authorities? (Legal, technical, social)
+3. What conflicts might arise?
+4. How would you resolve priority disputes?
+5. Design two alternative architectures with tradeoffs.
+```
+
+---
+
+## **Specific Exercise to Break Pattern Dependency:**
+
+### **"The Airbnb Disaster Response System"**
+```
+During a natural disaster:
+- Airbnb wants to offer free housing to displaced people
+- Hosts volunteer properties
+- Disaster victims need shelter
+- Local government coordinates response
+- Insurance companies assess damage
+- Neighbors report available resources
+
+Design a system that:
+1. Matches victims to housing within 24 hours
+2. Respects host preferences and safety
+3. Integrates with government systems
+4. Handles insurance implications
+5. Prevents fraud and abuse
+
+**You must identify ALL relevant objects and relationships yourself.**
+**There are at least 10 significant entities.**
+**Authority shifts based on emergency level.**
+```
+
+---
+
+## **The Core Issue:**
+
+The student might be treating this as a **form-filling exercise** rather than a **design thinking exercise**.
+
+**Solution**: Give them **messy real-world problems** where:
+1. The "objects" aren't obvious
+2. Authorities conflict
+3. Requirements contradict
+4. They must make and justify tradeoffs
+
+This forces **true system design thinking** - not just pattern recognition.
+
+---
+
+**Should I provide a rubric for assessing independent system design thinking?** This would help you evaluate whether they're truly developing the skill or just mastering your template.

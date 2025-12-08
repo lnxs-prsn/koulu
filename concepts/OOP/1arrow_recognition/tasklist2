@@ -1,0 +1,49 @@
+Got it! Here are more exercises in **exactly your original format**, focusing only on the relationship questions and arrows—no code—so you can analyze who’s active/passive, dependent/independent, etc.:
+
+---
+
+# 5. Author and Book  
+#    Author → Book? (Author writes the book)  
+#    Book → Author? (Book needs to know its author)  
+
+# 6. Teacher and Course  
+#    Teacher → Course? (Teacher creates or teaches the course)  
+#    Course → Teacher? (Course must know who teaches it)  
+
+# 7. BankAccount and Transaction  
+#    BankAccount → Transaction? (Account initiates or logs transactions)  
+#    Transaction → BankAccount? (Transaction needs to know which account it belongs to)  
+
+# 8. Playlist and Song  
+#    Playlist → Song? (Playlist includes songs)  
+#    Song → Playlist? (Song needs to know which playlists contain it?)  
+
+# 9. Order and OrderItem  
+#    Order → OrderItem? (Order creates or contains its items)  
+#    OrderItem → Order? (OrderItem must know which order it belongs to)  
+
+# 10. User and Session  
+#    User → Session? (User starts or owns sessions)  
+#    Session → User? (Session must know which user it belongs to)  
+
+# 11. Airplane and Flight  
+#    Airplane → Flight? (Airplane is scheduled for flights)  
+#    Flight → Airplane? (Flight must know which airplane is assigned)  
+
+# 12. BlogPost and Comment  
+#    BlogPost → Comment? (Post displays or stores comments)  
+#    Comment → BlogPost? (Comment must know which post it replies to)  
+
+# 13. Parent and Child  
+#    Parent → Child? (Parent has or manages children)  
+#    Child → Parent? (Child needs to know their parent)  
+
+# 14. Company and Employee  
+#    Company → Employee? (Company hires or manages employees)  
+#    Employee → Company? (Employee needs to know their employer)  
+
+# 15. Library and BookCopy  
+#    Library → BookCopy? (Library owns or lends book copies)  
+#    BookCopy → Library? (Book copy must know which library it belongs to)  
+
+Let me know if you’d like another batch!
