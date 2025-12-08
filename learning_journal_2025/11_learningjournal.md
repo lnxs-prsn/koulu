@@ -365,3 +365,14 @@ home
   - began bit slow the viope project
     - its simple but I might get suprises later on.
   - the book is good first 5 min helped me to coordinate my effort better in learning
+
+8.12/ 
+iopv
+  - will continue with the OOP 
+    - I dont intuitively yet understand relationships objects have 
+      - meaning I do not understand the priciple of object building 
+        - which is coordinator object in cluster of object 
+        - which is data object
+  - went well drilled further my understanding  about 
+    - OOP concepts 
+    - knocked on the door of system design with the help of AI

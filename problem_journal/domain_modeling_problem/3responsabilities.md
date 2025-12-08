@@ -28,3 +28,34 @@ what are active cross object boundary responsabilites
 -   
 
 
+
+
+
+# Airline → Flight? (Airline operates flights)
+# Flight → Airline? (Flight is operated by airline)
+# Flight → Passenger? (Flight has passengers)
+# Passenger → Flight? (Passenger books flights)
+
+
+
+ACTION
+    -   airline operates
+    -   flight is coordinated by airlines
+    -   flight stores data of passenger
+        -   passengers are assigned to flight
+    -   passenger books flight
+        -   passenger initiates  
+            -   paradoxically real initiator is the airlines by offering a flight
+            -   but they offer because passengers have shown interest
+
+
+PARTICIPANTS
+    -   airline
+    -   flight 
+    -   passenger
+
+
+RESPONSIBILITIES
+    -   airline 
+        -   creates flights and coordinates flights and customers
+    -   

@@ -13,5 +13,13 @@ AUTHORITY
     -   Who everyone points fingers at if something goes wrong 
     -   who points finger when things go wrong.
 
+AUTHORITY DEPENDECY?
+    -   is there 
+        -   strong lifecycle dependency?
+
+WHO CONTROL CREATION AND ASSIGNMENT
+    -   in object design, 
+        -   who controls creation and assignment 
+            -   determines authority.
 
 
