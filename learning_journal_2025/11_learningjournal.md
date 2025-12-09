@@ -386,3 +386,12 @@ iopv
     - without them I default to my incorrect assumptions and reach 50% success rate
   - good day I yet have not programmed single line of code
     - I have focused on improving my conseptual undestanding 
+
+
+9.12/
+iopv
+  - proceeded to design decisions of the OOP
+    - I now understand better how I should have proceeded with the battleship game
+      - also I understand better how relationships of he objects works who is in charge and who is merely participant
+      - I might be over evaluating myself but I feel like I could now do jr dev tasks.
+        - 
