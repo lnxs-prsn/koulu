@@ -78,79 +78,37 @@ ARROWS
 DESIGN DECISIONS
     -   CLASSES
         -   election system 
-            -   everything goes through this one
-        -   election committee
-            -   calls elections_system.validator.is_election_valid()
-        -   observer
-            -   calls elections_system.validator.is_election_valid()
-        -   ballotbox
-            -   is called by the election system to store the vote
-            -   keeps count of the votes 
-            -   keeps count of the valid and invalid votes
+            -   coordinates other objects
+                -   calls validate and validates user_data
+                -   calls anonymization and anonymizes the user_data turns it to token
+                -   calls voter and creates instance
+                -   calls vote and passes the user vote to it
+                -   calls ballotbox and adds to it vote
+                -   calls method in the validate to if election rules are maintaned
+                -   
         -   voter
-            -   is instantiated throught the anonymizer object so no one in the system knows the voter
-                -   only if voter is valid or invalid is known
-            -   calls election system to get vote instance
-            -   calls election system to vote
-            -   
+            -   is called by electionsystem
+            -   receives token
+            -   select_option()
         -   vote
-            -   needs voter interface to be initiated by the voter
-            -   vote cannot know who voted only store data of what was voted
-        -   voteinterface
-            -   voter initiates the vote through the voteinterface
-            -   am assuming that real flow is voter requests > election system then election system > voteinterface > vote(voter)
-        -   validator
-            -   this one can contain multiple objects validation methods
-                -   all stored in one place if later changes need to be done all can be found in one place
-        -   anonymizer 
-            -   this must be made an object so its integrity can allways be checked and if anonymization protocol changes 
-            -   it can become an continuation so integrity of the whole system can be ensured 
-
-    -   class methods 
-        -   election system 
-            -  initiate voter
-            -  Voter.new_voter()
-                -  should start in the Voter method
-                    -  process that takes id and verifies its validity and eligibility for voting
-                        -  in that process Voter calls election system and asks its to validate
-                        -  not sure if this is correct electionsystem.validate(voter)
-                        -  if returns true continue
-                        -  return false and unvalidated parts of the id
-                           -  if its age return incorrect age etc
-            -  validate voter
-               -  election system calls Validator object
-                  -  Validator.validate_voter(voter)
-                     -  returns boolean
-            -  new_vote()
-               -  electionsystem calls 
-                  -  voteinterface.new_vote(vote)
-                  -  and voteinterface will return object
-                     -  Vote(vote)
-                        -  Vote has an mechanism that instance can only be created once and its immutable
-                        -  it cannot be deleted after creation
-            -  anonymize voter
-               -  anonymize()
-               -  this method  is called when creating voter
-               -  after Validation return true
-               -  then validation object calls election_system.anonymize() gives it the user data and hashes it and encrypts with an key only user receives
-               -  then that hash become user id
-            - observer access 
-                - observe(self)
-                  - this method returns 
-                    - count of
-                      - all the valid voters 
-                      - invalid invalid voter
-                      - valid votes
-                      - invalid votes
-                      - any system malfunctions 
-                        - not details of problems but enough so observers can have either doubt ot not
-                      - it gives in that moments leader or winner if the voting time is over
-                      - if asked it can give demographics of the votes 
-                        - not sure if I should implement this 
-            -   commision access
-                -   integrity_test
-                    -   calls validator.validate_election(self)
-                        -   method checks all the metrics set for the election
-                        -   if there are anomalies in the numbers 
-                            -   are there more people electing for example than known elector count
-                        -   
+            -   is called by electionsystem
+            -   gets passed voters vote through electionsystem
+        -   ballotbox
+            -   is called by electionsystem
+            -   gets passed vote through the election system
+            -   stores dictionary of options and list of tuple containing the voter token and the vote 
+        -   electioncommision
+            -   stores and electioncommitions report
+            -   requests from electionsystem reports
+        -   observer
+            -   stores an observation report
+            -   requests from electionsystem reports
+        -   validation
+            -   is called by electionsystem
+            -   validates multiple objects
+                -   validate_voter, validate_anonymity, validate_rules, validate_ballotbox, 
+                -   stores array of rules and regulations for the election
+        -   anonymization
+            -   is called by the electionsystem
+            -   anonymize_data()
+                -   this anonymises user_data before creating voter instance
