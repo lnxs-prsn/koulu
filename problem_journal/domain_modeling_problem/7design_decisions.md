@@ -79,6 +79,9 @@ DESIGN DECISIONS
     -   CLASSES
         -   election system 
             -   coordinates other objects
+                -   stores hashes of the user_id
+                    -   hashes must have salt to ensure only that 
+                    -   to ensure that every user_id gets one voter object
                 -   calls validate and validates user_data
                 -   calls anonymization and anonymizes the user_data turns it to token
                 -   calls voter and creates instance
@@ -92,11 +95,12 @@ DESIGN DECISIONS
             -   select_option()
         -   vote
             -   is called by electionsystem
+            -   immutable
             -   gets passed voters vote through electionsystem
         -   ballotbox
             -   is called by electionsystem
             -   gets passed vote through the election system
-            -   stores dictionary of options and list of tuple containing the voter token and the vote 
+            -   stores dictionary of options and list of votes
         -   electioncommision
             -   stores and electioncommitions report
             -   requests from electionsystem reports

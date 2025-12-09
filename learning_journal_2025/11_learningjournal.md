@@ -394,4 +394,4 @@ iopv
     - I now understand better how I should have proceeded with the battleship game
       - also I understand better how relationships of he objects works who is in charge and who is merely participant
       - I might be over evaluating myself but I feel like I could now do jr dev tasks.
-        - 
+  - day went well I got to point of designing an whole project 
