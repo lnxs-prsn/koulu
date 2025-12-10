@@ -117,4 +117,5 @@ iopv
   - I know what is being taught but I dont know them enought to be able to explain to some one
     - so now I need to learn them well enough to explain them
   - lista työntekijöista ja heidän esihenkilö
-    - TYONTEKIJÄ EMMO EMMONEN ESIHENKILÄ ESSI ESIHENKILÖ
+    - TYONTEKIJÄ EMMO EMMONEN ESIHENKILÖ ESSI ESIHENKILÖ
+      - had problem getting executable to work but finally resolved 
