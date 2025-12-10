@@ -1,0 +1,130 @@
+# Perus SELECT harjoituksia
+
+1. Write a query to display the names (first_name, last_name) using alias name "First Name", "Last Name" (employees)
+SELECT first_name AS First Name, last_name AS Last Name from employees
+
+2. Write a query to get unique department ID from employee table.
+
+3. Write a query to get all employee details from the employee table order by first name, descending.
+
+4. Write a query to get the names (first_name, last_name), salary and PF of all the employees (PF is calculated as 12% of salary).
+
+5. Write a query to get the employee ID, names (first_name, last_name), salary in ascending order of salary.
+
+6. Write a query to get the total salaries payable to employees.
+
+7. Write a query to get the maximum and minimum salary from employees table.
+
+8. Write a query to get the average salary and number of employees in the employees table.
+
+9. Write a query to get the number of employees working with the company.
+
+10. Write a query to get the number of jobs available in the employees table.
+
+11. Write a query get all first name from employees table in upper case.
+
+12. Write a query to get the first 3 characters of first name from employees table.
+
+13. Write a query to calculate 171*214+625.
+
+14. Write a query to get the full names (for example Ellen Abel, Sundar Ande etc.) of all the employees from employees table.
+
+15. Write a query to get first name from employees table after removing white spaces from both side.
+
+16. Write a query to get the length of the employee names (first_name, last_name) from employees table.
+
+17. Write a query to select first 10 records from a table.
+
+18. Write a query to get monthly salary (round 2 decimal places) of each and every employee
+
+19. Write a query to get the average salary and number of employees working the department 90.
+
+20.  Write a query to get the highest, lowest, sum, and average salary of all employees.
+
+21. Write a query to get the difference between the highest and lowest salaries.
+
+# Restricting and Sorting Data
+
+1. Write a query to display the names (first_name, last_name) and salary for all employees whose salary is not in the range $10,000 through $15,000.
+
+2. Write a query to display the names (first_name, last_name) and department ID of all employees in departments 30 or 100 in ascending alphabetical order by department ID.
+
+3. Write a query to display the names (first_name, last_name) and salary for all employees whose salary is not in the range $10,000 through $15,000 and are in department 30 or 100.
+
+4. Write a query to display the first_name of all employees who have both an "b" and "c" in their first name.
+
+5.  Write a query to display the last name, job, and salary for all employees whose job is that of a Programmer or a Shipping Clerk, and whose salary is not equal to $4,500, $10,000, or $15,000.
+
+6.  Write a query to display the last names of employees whose names have exactly 6 characters.
+
+7.  Write a query to display the last names of employees having 'e' as the third character.
+
+# Group by
+
+1.  Write a query to get the number of employees with the same job.
+
+2. Write a query to find the manager IDs and the salary of the lowest-paid employee for every one of them.
+
+3.  Write a query to get the department ID and the total salary payable in each department.
+
+4.  Write a query to get the average salary for each job ID excluding programmer.
+
+5.  Write a query to get the total salary, maximum, minimum, average salary of employees (job ID wise), for department ID 90 only.
+
+6.  Write a query to get the job ID and maximum salary of the employees where maximum salary is greater than or equal to $4000.
+
+7.  Write a query to get the average salary for all departments employing more than 10 employees.
+
+# Subquery
+
+Lähde: https://www.w3resource.com/sqlite-exercises/sqlite-subquery-exercises.php
+
+1. Write a query to find the names (first_name, last_name) and salaries of the employees who have a higher salary than the employee whose last_name='Bull'.
+
+2. Write a query to find the names (first_name, last_name) of all employees who works in the IT department.
+
+3. Write a query to find the names (first_name, last_name) of the employees who have a manager who works for a department based in the United States.
+
+4. Write a query to find the names (first_name, last_name) of the employees who are managers.
+
+5. Write a query to find the names (first_name, last_name), the salary of the employees whose salary is greater than the average salary.
+
+6. Write a query to find the names (first_name, last_name), the salary of the employees whose salary is equal to the minimum salary for their job grade.
+
+7.  Write a query to find the names (first_name, last_name), the salary of the employees who earn more than the average salary and who works in any of the IT departments.
+
+8.  Write a query to find the names (first_name, last_name), the salary of the employees who earn more than Mr. Bell.
+
+9.  Write a query to find the names (first_name, last_name), the salary of the employees who earn the same salary as the minimum salary of the employees.
+
+10.  Write a query to find the names (first_name, last_name) of the employees who are not supervisors.
+
+11.  Write a query to display the employee ID, first name, last names, salary of all employees whose salary is above average for their departments.
+
+12.  Write a query to select last 10 records from a table. This 10 records should be ordered by employee_id.
+
+13.  Write a query to list department number, name for all the departments in which there are no employees in the department.
+
+# Joins
+
+1. Write a query to find the addresses (location_id, street_address, city, state_province, country_name) of all the departments. Hint : Use NATURAL JOIN.
+
+2. Write a query to find the names (first_name, last name), department ID and the name of all the employees.
+
+3. Write a query to find the employee id, name (last_name) along with their manager_id, manager name (last_name).
+
+4. Write a query to find the names (first_name, last_name) and hire date of the employees who were hired after (last_name) 'Jones'.
+
+5. Write a query to get the department name and number of employees in the department.
+
+6.  Write a query to find the employee ID, job title number of days between ending date and starting date for all jobs in department 90 from job history.
+
+7.  Write a query to display the department ID, department name, and manager first name.
+
+8.  Write a query to display the department name, manager name, and city.
+
+9.  Write a query to display the job title and average salary of employees.
+
+10.  Write a query to to display job title, employee name, and the difference between the salary of the employee and minimum salary for the job.
+
+11.  Write a query to display the job history that was done by any employee who is currently drawing more than 10000 of salary.
