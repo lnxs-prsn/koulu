@@ -119,3 +119,8 @@ iopv
   - lista työntekijöista ja heidän esihenkilö
     - TYONTEKIJÄ EMMO EMMONEN ESIHENKILÖ ESSI ESIHENKILÖ
       - had problem getting executable to work but finally resolved 
+
+
+11.12/
+gitpv1
+  - refreshed git knowledge and delved deeper to branching.
