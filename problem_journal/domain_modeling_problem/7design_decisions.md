@@ -6,6 +6,13 @@
 
 
 
+If an object's job is to...	                            Then it should NOT...
+- Store Data (Voter list, votes, rules)	                - Perform logic on that data. It should be a "dumb" data holder.
+- Compute/Validate (Check eligibility, tally votes)	    - Permanently store the data it's checking. It should get data, check it, and return a result.
+- Coordinate (Manage the process flow)	                - Know the internal details or hold sensitive data from the objects it coordinates.
+
+
+
 
 PARTICIPANTS
   -   Voter
