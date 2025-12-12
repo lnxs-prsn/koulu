@@ -142,4 +142,4 @@ sqlpv2
 home
   - succeeded doing the sudoku medium level as the book had recommended
     - I think I just need more exercise new few more challenges so I get to mindset the book wants me to get to
-    - 
+    - TOMMORROW OR DAY AFTER REVIEW PROGRESS SO FAR
