@@ -1,0 +1,1 @@
+sqlite> SELECT e.last_name, m.last_name AS manager FROM employees AS e INNER JOIN employees AS m ON m.manager_id = e.employee_id LIMIT 10;

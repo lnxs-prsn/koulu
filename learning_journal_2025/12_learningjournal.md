@@ -126,4 +126,16 @@ gitpv1
   - refreshed git knowledge and delved deeper to branching.
 home
   - will continue the OOP concepts
-    - I miss understood the OOP design principles now have been fixing the misunderstanding 
+    - I misunderstood the OOP design principles now have been fixing the misunderstanding 
+  
+
+12.12/
+sqlpv2
+  - learned a lot 
+    - mostly reviewed bits that I knew as syntax is mostly in the memory
+  - asked teacher and school mate for an help related to the OOP principles 
+    - I finally have some contex space to balance the gpt and the deepseek 
+      - I mostly ran to figure out what the AI set but obviously AI gives 
+      - theoretically how it should be but in practice it might not make sense at all.
+  - I definitely on my oen need to study more about sql 
+    - just presently very fixated on python.
