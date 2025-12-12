@@ -4,3 +4,8 @@ are doing
 Translate task requirements into actions:
 example 
     -   "Prevent double-voting" → "System validates single vote per voter"
+-   
+
+
+
+

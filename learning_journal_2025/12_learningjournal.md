@@ -139,3 +139,7 @@ sqlpv2
       - theoretically how it should be but in practice it might not make sense at all.
   - I definitely on my oen need to study more about sql 
     - just presently very fixated on python.
+home
+  - succeeded doing the sudoku medium level as the book had recommended
+    - I think I just need more exercise new few more challenges so I get to mindset the book wants me to get to
+    - 
