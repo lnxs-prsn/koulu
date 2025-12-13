@@ -143,3 +143,11 @@ home
   - succeeded doing the sudoku medium level as the book had recommended
     - I think I just need more exercise new few more challenges so I get to mindset the book wants me to get to
     - TOMMORROW OR DAY AFTER REVIEW PROGRESS SO FAR
+
+
+13.12/ 60min
+  - review:
+    - located the problem 
+      - lack of managerial layer in my activity
+        - to be resolved as soon as possible latest before next year
+  - 
