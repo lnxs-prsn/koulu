@@ -150,4 +150,13 @@ home
     - located the problem 
       - lack of managerial layer in my activity
         - to be resolved as soon as possible latest before next year
-  - 
+
+
+14.12/ 60min 
+  - fixing the computer had to use timeshift so I would not shoot myself on the foot
+  - what are progressing well?  
+    - the managment layer system should be readier sooner than I  thought 
+  - what is laggin 
+    - due to focusing on the python and sql I have not applied for training places 
+      - this will be resolved next week latest as the managment system should be up and running 
+      - 

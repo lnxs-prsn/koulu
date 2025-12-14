@@ -106,3 +106,5 @@ DESIGN DECSIONS
        -   has method borrow which changes the state
        -   has method to check state
        -   has state available boolean
+-   
+
