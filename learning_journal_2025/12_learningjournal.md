@@ -169,4 +169,8 @@ sqlpv3
       - ready for simple use cases
       - some form of deadlines set for execution limit
   - unfocused day
-    - 
+home
+  - phone call changed priorities of the day
+    - now better focus on applying for an training position
+  - another task is to set up the managerial layer.
+  - 
