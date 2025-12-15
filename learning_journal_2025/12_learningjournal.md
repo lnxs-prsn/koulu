@@ -159,4 +159,14 @@ home
   - what is laggin 
     - due to focusing on the python and sql I have not applied for training places 
       - this will be resolved next week latest as the managment system should be up and running 
-      - 
+
+
+15.12/ 
+sqlpv3
+  - trying to read about the managerial layer system 
+    - soft goal would be to have it done by the end of this week 
+      - means that skeleton system 
+      - ready for simple use cases
+      - some form of deadlines set for execution limit
+  - unfocused day
+    - 
