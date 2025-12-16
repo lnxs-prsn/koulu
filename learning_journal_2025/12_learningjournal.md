@@ -173,4 +173,16 @@ home
   - phone call changed priorities of the day
     - now better focus on applying for an training position
   - another task is to set up the managerial layer.
-  - 
+
+
+16.12/ 
+etä työelämäpv
+  - made video cv application 
+    - its still not ready as I likely have to redo it as am not really satisfied with it
+home
+  - from now on more meaningful git commenting 
+    -   need to research how to do it in systematic manner
+        -   goal would be to use most used system in the industry
+  - next is to do the managerial layer setting
+    - small worry that the python OOP principle section might have to redone
+    - also I have to resolve the OS problem likely revert to last working settings or reinstalling whole system.
