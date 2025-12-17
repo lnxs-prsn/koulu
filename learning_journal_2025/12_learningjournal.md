@@ -178,7 +178,7 @@ home
 16.12/ 
 etä työelämäpv
   - made video cv application 
-    - its still not ready as I likely have to redo it as am not really satisfied with it
+    - its still not ready as I likely have to redo it as am not really satisfied with it.
 home
   - from now on more meaningful git commenting 
     -   need to research how to do it in systematic manner
@@ -186,3 +186,34 @@ home
   - next is to do the managerial layer setting
     - small worry that the python OOP principle section might have to redone
     - also I have to resolve the OS problem likely revert to last working settings or reinstalling whole system.
+
+
+17.12/
+etäpvopesaikku
+  - bit disorganized as the drive of what to improve was clear in the beginning 
+    - now is bit unclear so this week I will keep drilling the OOP 
+    - next week return to algorithm problems 
+    - by the next week it would be good if I have template ready for the managerial layer no deadline pressures yet
+      - there is 3 option:
+        - Personal Management System (PMS)
+          - whole system has everything 
+            - its more complex to implement
+            - once its implemented I might not need any other system ever again 
+            - I would be able to manage work life balance with this lot easier 
+            - now that I dont have any real work pressures it would be best investment on myself  
+        - Task Evaluation & Control Template
+          - more longterm but one project at a time 
+            - with this I cannot decide easily which project should get my attention
+        - Personal Agile Weekly Template
+          - fastest and easiest to implement for my current exection layer
+          - its not much of longterm 
+            - and I might still have to do equal amount of work later or not 
+  - will finish the first OOP project fully self designed
+    - finished the OOP project
+      - it failed as expected 
+        - flaws in the design decision I made 
+        - flaws in the object level implementation
+      - next I will run debugging of my understanding 
+        - debugging began 
+          - setting up all the necessessary files and folders 
+          - dont know if I will continue today or tomorrow 
