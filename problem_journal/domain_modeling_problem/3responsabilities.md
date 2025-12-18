@@ -25,6 +25,14 @@ what are active cross object boundary responsabilites
                         -   name, address, what has borrowed
                 -   DOING RESPONSIBILITES
                     -   NONE
--   
 
+WHICH OBJECT IS RESPONSIBLE FOR CREATING OTHER OBJECTS
+    -   EXAMPLE
+        -   if there are library, book, member objects 
+            -   library is responsible for creating the other objects
+                -   it has responsibility to know who can borrow and what can be borrowed.
 
+ Rule of thumb:
+    -   If system has a closed world (only certain entities are valid),
+        -   then creation must be controlled.
+    -   If it’s an open world (any instance is valid), then free creation is fine.

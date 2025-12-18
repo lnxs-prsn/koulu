@@ -31,5 +31,11 @@ Can I describe its purpose without using "and"? (SRP Test)
 "Validates vote format" → GOOD
 
 
+there is function main() 
+  -   this function passess the coordinator object to the initiator objects.
 
+
+so system level coordinator needs to always know the participants 
+
+but the orchesterator only needs to know the coordinator
 

@@ -222,4 +222,11 @@ etäpvopesaikku
 18.12/
 etäpv
   - will continue the mooc for the first half of the morning then return to the debuggin of the yesterday
-  - 
+  - mooc goal was achieved the blueprint is effective and am getting the pattern recognition % up
+    - need to turn it formal way to measure my progress now its mostly emotion based 
+  - did also the OOP principles blue print 
+    - learned from my errors corrected my incorrect understanding of OOP principles 
+      - now I have data flow clear tomorrow I will attempt to do new 3 object project further assessment of my direction
+  - rest of the day I will evaluate my chosen managerial layer instinctively I am resistant 
+    - but problem solving book that am reading says chose the simplest and easiest path and grow from there.
+  - energies have been low lately might have to consider exercising to maintain the focus.

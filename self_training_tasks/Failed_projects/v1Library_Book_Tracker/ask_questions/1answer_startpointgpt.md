@@ -94,8 +94,7 @@ Thanks for sharing your full project code and your self-reflections. I can give 
 
 You are very close to a “fully compliant” implementation; most issues are **implementational details, not fundamental design flaws**.
 
----
 
-If you want, I can make a **short visual map of your current design vs blueprint**, highlighting exactly where rules are enforced, partially enforced, or missing. This helps clarify your situation in one glance. It would be purely assessment — no solutions.
 
-Do you want me to do that?
+Issues 
+
