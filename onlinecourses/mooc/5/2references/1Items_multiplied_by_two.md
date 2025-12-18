@@ -54,5 +54,3 @@ PATTERN CORRECT TERMINOLOGY
     -   accumulator pattern
 -   
 
-
-364 799 956 382     yQ3jn9Vz

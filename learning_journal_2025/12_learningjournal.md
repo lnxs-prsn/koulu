@@ -217,3 +217,9 @@ etäpvopesaikku
         - debugging began 
           - setting up all the necessessary files and folders 
           - dont know if I will continue today or tomorrow 
+
+
+18.12/
+etäpv
+  - will continue the mooc for the first half of the morning then return to the debuggin of the yesterday
+  - 
