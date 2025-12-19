@@ -230,3 +230,9 @@ etäpv
   - rest of the day I will evaluate my chosen managerial layer instinctively I am resistant 
     - but problem solving book that am reading says chose the simplest and easiest path and grow from there.
   - energies have been low lately might have to consider exercising to maintain the focus.
+
+
+19.12/
+etäpv
+  - proceeding to do the mooc 
+    - 
