@@ -235,4 +235,8 @@ etäpv
 19.12/
 etäpv
   - proceeding to do the mooc 
-    - 
+    - did few tasks 
+  - continued with domain modeling problem directory 
+    - I have learned by questioning the AI about what was wrong and confirmed my guesses about OOP principles
+      - next goal is to do written learning about the mistakes without help from the AI
+      - 
