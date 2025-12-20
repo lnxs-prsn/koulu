@@ -66,20 +66,19 @@ while True:
             id += 1
     elif selection== 2:
         alist = []
-        with open('/onlinecourses/viope/exercises/SalaryEmployee_to_CSV_file/salary_employee.csv', 'w', encoding='utf-8') as ff:
+        with open('./salary_employee.csv', 'w', encoding='utf-8') as ff:
             for employee in salary_employees:
-                alist.append([employee.id, employee.name, employee.monthly_salary])
-
-
+              alist.append([employee.id, employee.name, employee.monthly_salary])
             for value in alist:
-               ff.write(my_join(value, ','))
-            
+              ff.write(my_join(value, ',')+'\n')
             ff.close()
+        print(f'{len(alist)}  employee(s) added to salary_employee.csv')
+        
     elif selection== 3:
-        with open('salary_employee.csv', 'w', encoding='utf-8') as ff:
-            print(salary_employees)
-            x = ff.read()
+        with open('salary_employee.csv', 'r', encoding='utf-8') as ff:
+            x = ff.readlines()
             ff.close()
+        print(f'{len(x)}  employee(s) read from salary_employee.csv')
     elif selection== 0:
         break
 

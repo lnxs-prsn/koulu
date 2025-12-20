@@ -239,4 +239,9 @@ etäpv
   - continued with domain modeling problem directory 
     - I have learned by questioning the AI about what was wrong and confirmed my guesses about OOP principles
       - next goal is to do written learning about the mistakes without help from the AI
-      - 
+
+
+20.12/ 60min
+  - viope day
+    - finished the viope 1.6 exercise
+    - 
