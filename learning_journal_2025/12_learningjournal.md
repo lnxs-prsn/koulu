@@ -244,4 +244,9 @@ etäpv
 20.12/ 60min
   - viope day
     - finished the viope 1.6 exercise
-    - 
+
+
+21.12/ 60min
+  - discipline is bit shaky needs to be reinforced in the monday and steadily maintained through out the week.
+  - next is the viope chapeter 11 section 1.7
+  - very slow progress 
