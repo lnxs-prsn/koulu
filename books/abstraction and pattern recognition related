@@ -1,0 +1,11 @@
+"How to Design Programs" (HtDP)	Felleisen et al.	Systematic design recipe from concrete examples to templates.	Core match. Focuses on moving from concrete examples to general abstractions.
+
+"The Little Schemer"	Friedman & Felleisen	Teaches recursive thinking and pattern recognition in a question-answer style.	Strong match. It trains pattern recognition, which is the foundation of generalization.
+
+"Structure and Interpretation of Computer Programs" (SICP)	Abelson & Sussman	Focuses on the essence of computational processes and building abstraction layers.	Strong match. Emphasizes extracting invariants and building abstractions from examples.
+
+"Algorithmic Thinking" (2nd Ed.)	Daniel Zingaro	Teaches how to approach and deconstruct complex problems using algorithms.	Related but different. Focuses on algorithmic problem-solving, not the core skill of abstraction.
+
+"Introduction to Algorithms" (CLRS)	Cormen et al.	Comprehensive reference for classic algorithms and data structures.	Mismatch. A definitive reference, not a book for learning the process of generalization.
+
+"Grokking Algorithms"	Aditya Bhargava	Beginner-friendly introduction to common algorithms with illustrations.	Mismatch. An intuitive primer on algorithms, not abstraction training.

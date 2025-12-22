@@ -37,13 +37,15 @@ WHICH OBJECT IS RESPONSIBLE FOR CREATING OTHER OBJECTS
         -   then creation must be controlled.
     -   If it’s an open world (any instance is valid), then free creation is fine.
 
-coordinator is responsible for validation 
+coordinator is responsible for validation when gatekeeping
     -   who ever coordinates, library, bank, school etc
         -   must validate the gateway before the action
             -   age, amount of resources, value etc
         -   objects themselves are acted on so they cannot be gatekeepers
             -   deciding who can interact with them
             -   only coordinator can
+            -   BUT objects can validate their own data integrity
+                -   
 
 
 coordinator tells objects what to do 
@@ -52,3 +54,7 @@ coordinator tells objects what to do
             -   objects do it themselves coordinator tells when to do
             -   what is done by the objects when is commanded by the coordinator
             -   "If an action needs validation, the coordinator MUST validate it BEFORE commanding any participants to act."
+
+
+
+

@@ -1,0 +1,130 @@
+Yes — here are **strong additions** that genuinely belong on *this exact list*, i.e. books that **train the act of generalization itself**, not just problem-solving throughput. I’ll group them by *what kind of abstraction muscle they train*, so you can pick deliberately.
+
+---
+
+## 🧠 Core “Generalize From Examples” Training
+
+### **4. *Structure and Interpretation of Computer Programs* (SICP)** – Abelson & Sussman
+
+**Why it belongs here (despite its reputation):**
+
+* SICP is *explicitly* about **extracting invariants** from examples.
+* It repeatedly forces the question:
+
+  > “What is the *essence* of this process, independent of input size or representation?”
+* The early chapters are *pure abstraction training* (procedural abstraction → data abstraction → meta-abstraction).
+
+**Best way to use it (important):**
+
+* Ignore performance and Scheme cleverness.
+* Focus on *why* each abstraction eliminates duplication.
+* Translate examples mentally into Python.
+
+This pairs *extremely well* with **HtDP**:
+
+* HtDP = *systematic method*
+* SICP = *abstraction depth*
+
+---
+
+## 🔍 Pattern Extraction & Program Schemas
+
+### **5. *The Little Schemer* / *The Seasoned Schemer*** – Friedman & Felleisen
+
+**Why it’s special:**
+
+* These books drill **pattern recognition across problems**.
+* Every chapter is essentially:
+
+  > “You’ve seen this shape before — here it is again in disguise.”
+
+They teach:
+
+* How recursion patterns *repeat*
+* How small variations become parameters
+* How “one-off logic” becomes a general schema
+
+⚠️ Looks playful. Is not shallow.
+This is **pure abstraction training disguised as dialogue**.
+
+---
+
+## 🧩 Turning Concrete Algorithms into Reusable Schemas
+
+### **6. *Algorithmic Thinking* (Daniel Zingaro)**
+
+**Why it fits your exact concern:**
+
+* Explicitly teaches:
+
+  * moving from *worked examples*
+  * to *algorithmic patterns*
+  * to *general-purpose solutions*
+* Uses *small, concrete problems first*, then abstracts them.
+
+This is one of the few modern books that **doesn’t assume you already know how to generalize**.
+
+---
+
+## 🧠 Mathematical Generalization (Highly Transferable)
+
+### **7. *Proofs and Types* – Jean-Yves Girard**
+
+**Why this matters even for programming:**
+
+* Teaches abstraction as **structure-preserving transformation**
+* Shows how “this works here” becomes “this must work everywhere”
+
+You don’t read this for code.
+You read it to **upgrade how you think about symbols and constraints** (`i < j`, invariants, bounds).
+
+Optional, but powerful.
+
+---
+
+## 🧰 Practical Pattern Libraries (After You Have the Skill)
+
+### **8. *Design Patterns* – Gamma et al. (GoF)**
+
+⚠️ *Only* useful **after** you can generalize yourself.
+
+Why include it anyway?
+
+* It gives **names** to abstractions you will already have discovered.
+* Naming stabilizes thinking and reuse.
+
+Think of it as a *taxonomy*, not a teacher.
+
+---
+
+## 🧭 A Very Short “If You Read Only 3” Path
+
+If your *explicit goal* is:
+
+> “Turn concrete operations into parameterized, reusable logic”
+
+Then the **cleanest stack** is:
+
+1. **How to Design Programs (HtDP)** – method & discipline
+2. **The Little Schemer** – pattern recognition reflex
+3. **SICP** – depth and abstraction power
+
+That trio is unusually coherent — and far better than grinding LeetCode-style books.
+
+---
+
+## One Final Meta-Point (Important)
+
+You’re circling something most curricula never name:
+
+> **Generalization is not a side effect of problem-solving.
+> It is a separate skill that must be trained deliberately.**
+
+The fact that you articulated the “swap 2 and 4 → swap `matrix[i][j]` and `matrix[j][i]`” leap means you’re already *thinking at the right level*. These books don’t just add content — they **stabilize that leap into a repeatable process**.
+
+If you want, next we can:
+
+* build a **deliberate practice routine** (15–30 min/day) using *any* problem set
+* or map **your current Python/matrix work** directly onto HtDP-style templates
+
+Just say the word.

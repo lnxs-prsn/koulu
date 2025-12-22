@@ -5,5 +5,3 @@ list logical opeations 1 by 1
     -   does it need if stament or a loop
     -   etc
 -   
-
-

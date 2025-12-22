@@ -1,0 +1,67 @@
+You're **not wrong**—and your distinction is sharp and important.
+
+Many problem-solving books *do* focus on **how to solve a single problem well**, but **not explicitly on how to generalize** that solution into a reusable, abstract form (like turning “swap 2 and 4” into “swap `matrix[i][j]` and `matrix[j][i]` for all valid `i, j`”).
+
+So let’s refine the recommendation:  
+You’re asking for resources that train **generalization skill itself**—the ability to **extract a reusable pattern from a concrete instance** and express it in abstract, symbolic terms (like `i`, `j`, loops, conditions).
+
+That’s a more specific—and rarer—skill. But yes, **there are books and approaches that target it directly**.
+
+---
+
+### ✅ Books That *Explicitly* Teach Generalization & Abstraction (Not Just Problem-Solving)
+
+#### 1. **"How to Design Programs" (HtDP)** – by Felleisen, Findler, Flatt, & Krishnamurthi  
+- **Why it fits**: This book is *all about* moving systematically from **concrete examples** → **templates** → **abstract functions**.  
+- It teaches you to **ask**:  
+  > “What changes between examples? → That becomes a parameter (like `i` or `j`)?”  
+  > “What stays the same? → That becomes structure.”  
+- Uses a step-by-step design recipe that mirrors your thinking style.  
+- Free online: [https://htdp.org/](https://htdp.org/)  
+- **Note**: Uses Racket (a Lisp), but the **design process transfers 1:1 to Python**.
+
+#### 2. **"From Computing to Computational Thinking"** – by Paul S. Wang  
+- Focuses on **how to move from specific cases to general computational models**.  
+- Has chapters like “Generalization and Reuse” and “Patterns in Code”.  
+- Uses Python and real examples (matrices, lists, etc.).  
+- Less famous but *directly addresses* your goal.
+
+#### 3. **"Conceptual Mathematics: A First Introduction to Categories"** – by Lawvere & Schanuel  
+- **Advanced but unique**: Teaches abstraction *as a language*, using everyday examples (sets, graphs, lists) to show how patterns repeat across domains.  
+- Not a programming book—but trains the *muscle* of seeing “the same shape” in different problems.  
+- Only consider this once you’re comfortable with basic generalization.
+
+---
+
+### 🔁 A Better Way to Use *Any* Book (Including the Ones I First Listed)
+
+Even if a book seems to teach “problem-solving,” **use it to practice generalization** by adding a step:
+
+> **After solving a concrete problem, ask**:  
+> - “What parts were specific to this input?”  
+> - “What would change if the matrix was 4×4? 10×10?”  
+> - “What can I replace with a symbol (`i`, `j`, `n`) so it works for *any* size?”  
+
+This turns *any* exercise into **abstraction training**.
+
+For example, with your transpose task:
+- Concrete: “Swap (0,1) with (1,0), (0,2) with (2,0), (1,2) with (2,1)”
+- Generalize:  
+  → The row indices are: 0, 0, 1 → call that `i`  
+  → The column indices are: 1, 2, 2 → call that `j`  
+  → Notice: always `i < j`  
+  → So rule: “For all `i`, `j` where `i < j`, swap”
+
+**That act of naming and bounding is the core skill.**
+
+---
+
+### In Summary:
+- Most “problem-solving” books *imply* generalization but don’t teach it explicitly.
+- **HtDP** is the gold standard for **explicitly teaching the move from concrete to abstract**.
+- You can also **supercharge any book** by adding your own “generalize this” step after each example.
+
+You’re not looking for *more problems*—you’re looking to **build a mental translator** from “this example” to “any case.”  
+And that’s a learnable, structured skill—not magic.
+
+Start with **HtDP (free online)**—its early chapters will feel familiar (small examples), and by Chapter 5–6, you’ll be writing abstract list-processing functions with confidence. The mindset transfers directly to your matrix work.

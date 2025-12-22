@@ -250,3 +250,13 @@ etäpv
   - discipline is bit shaky needs to be reinforced in the monday and steadily maintained through out the week.
   - next is the viope chapeter 11 section 1.7
   - very slow progress 
+
+
+22.12/
+etäpv
+  - starting day with mooc 
+    - training the algoritmic problem solving with those tasks
+    - figured out how to turn my specific solutions to abstractions that are applicable to all similar problems.
+      - correct term might be solution genralization
+  - next is  the domain modeling
+    - 

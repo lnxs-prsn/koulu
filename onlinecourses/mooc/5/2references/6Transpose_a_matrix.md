@@ -34,6 +34,26 @@ LOGICAL OPERATIONS
         -   receive list
         -   create x index int
         -   create y index int
-            -   for loop 
-                -   make exhange of locations 
-                    -   make 3 if statements
+            -   outer for loop
+                -   inner for loop
+                    -   the element in the outer list index 0 and and inner list index 1 
+                    -   is swapped with the element in the outer list index 1 and and inner list index 0 
+        -   or 2 if statements to do everything with index based exhange using 
+            -   locationx , locationy = valuelocationy, valuelocationx
+            -   above might be less clear albeit more shorter 
+
+
+
+PATTERN
+    -   index based replacements
+    -   in place mutation
+-   
+
+
+AI CORRECTED PATTERN
+    -   Triangular traversal
+
+GENERALIZED SOLUTION
+    -   if j > i
+        -   matrix[i][j] = matrix[j][i]
+
