@@ -259,4 +259,26 @@ etäpv
     - figured out how to turn my specific solutions to abstractions that are applicable to all similar problems.
       - correct term might be solution genralization
   - next is  the domain modeling
-    - 
+
+
+
+23.12/
+etäpv
+  - yesterday I began using the PEMT template and I found out that what I assumed to be domain modeling 
+    - was in reality it was hybrid of domain modeling (DDD) and OOP principles that I concoted 
+      - from the explanation of the AI (problem with AI is that its really good hype man but bad coach if you are going wrong direction it tries to bend reality to fit your direction instead of correcting you) 
+      - I will correct that today by setting up separate directories for
+      - domain modeling and OOP
+      - goal is to start with OOP principles and proceed with domain modeling
+        - to get full understanding of what am I doing and why am I doing it 
+
+  - day began with the algorithm problems folder task
+    - finished yesterdays task
+      - learned that I am having an monologue when solving task
+      - instead I need to learn to have an dialogue with the computer 
+        - I need to make it understand my intention its important that I understand my intention but its equally important the computer understands my intenttion
+    - I have slight problem of stopping a task once I need to shift to new task
+      - mind still keeps solving the previous task
+      - figure out how to make shift easier.
+  - next is the OOP and domain modeling
+    - templates are ready for both 

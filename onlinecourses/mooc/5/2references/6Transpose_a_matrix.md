@@ -26,7 +26,7 @@ have index x and index y
 put in to loop 
 iterate
 x stays constant        y stays constant
-listlocation[x][y] = listlocatin[x][y]
+listlocation[y][x],  listlocation[x][y]= listlocatin[x][y],listlocation[y][x]
 so take values from one list exchange them with the other in place 
 
 LOGICAL OPERATIONS
@@ -38,14 +38,15 @@ LOGICAL OPERATIONS
                 -   inner for loop
                     -   the element in the outer list index 0 and and inner list index 1 
                     -   is swapped with the element in the outer list index 1 and and inner list index 0 
-        -   or 2 if statements to do everything with index based exhange using 
-            -   locationx , locationy = valuelocationy, valuelocationx
-            -   above might be less clear albeit more shorter 
+                    -   if the element index in the inner list is bigger than the element index in the outer list
+                    -   OR loop the inner list based on cases when its inner index than the outer loop index
+
 
 
 
 PATTERN
-    -   index based replacements
+    -   The pattern was: “All necessary changes live in the upper triangle of a symmetric grid.”
+    -   index based swapping
     -   in place mutation
 -   
 
@@ -54,6 +55,6 @@ AI CORRECTED PATTERN
     -   Triangular traversal
 
 GENERALIZED SOLUTION
-    -   if j > i
-        -   matrix[i][j] = matrix[j][i]
+    -   for j in range(i + 1, n)
+        -   matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
 
