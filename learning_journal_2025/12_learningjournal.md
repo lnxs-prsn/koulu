@@ -297,4 +297,5 @@ etäpv
   - next is the setting up the OOP directory
     - goal is simple questions template that walks me through how to mass produce OOP principles compliant projects
       - then review the solution I come up with the AI until I have 360 perspective to OOP and muscle memory of the process
-      - 
+      - I have now 2 simple OOP principle templates 
+      - multiple full templates for more complex learning 
