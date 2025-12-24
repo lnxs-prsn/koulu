@@ -282,3 +282,19 @@ etäpv
       - figure out how to make shift easier.
   - next is the OOP and domain modeling
     - templates are ready for both 
+  
+
+24.12/
+etäpv
+    - wasted full hour trying to  prove irrelevant law case viability with AI 
+      - it was possible but would have needed strategist of highest level to succeed.
+  - next is the algorim_problems folder
+    - began new task 
+      - mooc cp5 subch 3 task 1
+        - solutions is easy but for some reason the patterns of the task
+          - are almost as large as the logical operations 
+            - will look it further later to understand further
+  - next is the setting up the OOP directory
+    - goal is simple questions template that walks me through how to mass produce OOP principles compliant projects
+      - then review the solution I come up with the AI until I have 360 perspective to OOP and muscle memory of the process
+      - 

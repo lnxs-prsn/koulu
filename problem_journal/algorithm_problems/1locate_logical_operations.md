@@ -14,7 +14,7 @@ what are the minimal operations that I need to do to solve the task
 can comparison be built or expressed other ways? than just x > y
 
 GO THROUGH THE WHOLE PROCESS PATTERS CAN ONLY BE SEEN IF WHOLE PROCESS IS LOOKED AT
-    !!! NO NOT BE LAZY IN THIS STAGE! THIS STAGE CONTROLS YOUR LEARNING SPEED IF YOU JUMP OVER STEPS 
+    !!! DO NOT BE LAZY IN THIS STAGE! THIS STAGE CONTROLS YOUR LEARNING SPEED IF YOU JUMP OVER STEPS 
     !!! YOU WILL HAVE TO COME BACK TO THEM LATER ONE WAY OR OTHER!
 
 to get elegan solution ask:
@@ -22,6 +22,7 @@ to get elegan solution ask:
     -   what implementation constraints arise from solution
         -   if solution is just two moves then implementation constraint is 
             -   how can I do it with just two moves.
+    -   when should action occur?
 
 AM I THINKING ONLY 
     -   procedurally rather than structurally.
@@ -33,3 +34,5 @@ AM I HAVING AN MONOLOGUE OR AM HAVING A DIALOG WITH THE COMPUTER
     -   computer doesn’t care about my intent. It only executes exactly what I say, in the order I say it.
     -   so am I having an monologue where only I know the intent or am I having an dialogue where computer also knows the intent
     -   
+
+

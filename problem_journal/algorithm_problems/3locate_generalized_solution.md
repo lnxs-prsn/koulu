@@ -22,3 +22,5 @@ You’re writing configuration or test data, not logic.
 But in algorithmic programming—especially tasks like transpose, sorting, searching, traversing—generalization is the goal.
 
 
+
+

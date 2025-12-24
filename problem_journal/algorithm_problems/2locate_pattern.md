@@ -6,6 +6,8 @@ TRY TO LEARN CORRECT PATTERN TERMINOLOGY
 
 CORE OF PATTERN RECOGNITION
     -   The habit of interrogating MY own examples for invariant structure.
-
+    -   An invariant is something that stays the same across all cases 
+        -    the unchanging core beneath surface differences.
+   -    "why this and not that? is there something forcing it to be this way?"
 
 
