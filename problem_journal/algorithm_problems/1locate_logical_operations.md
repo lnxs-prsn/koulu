@@ -35,4 +35,6 @@ AM I HAVING AN MONOLOGUE OR AM HAVING A DIALOG WITH THE COMPUTER
     -   so am I having an monologue where only I know the intent or am I having an dialogue where computer also knows the intent
     -   
 
-
+-
+-
+-

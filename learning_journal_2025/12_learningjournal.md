@@ -299,3 +299,20 @@ etäpv
       - then review the solution I come up with the AI until I have 360 perspective to OOP and muscle memory of the process
       - I have now 2 simple OOP principle templates 
       - multiple full templates for more complex learning 
+
+
+
+25.12/
+etäpv
+  - PEMT is ready
+    - set up the pemt folder
+    - bit waste as this is last week of the year but beginnings matter
+  - next patterns recognition training 
+    - mooc cp5 subch3 task2 from now on mooc 5.3.2 etc
+    - I have reached a limit where I need to create an template to get grasp for understanding the pattern recognition
+    - beyong reiterating the logical operations 
+  - next is using the OOP template to see if it works
+    - this template is bit more challenging than the previous hybrid domain modeling template
+    - added bit more for the domain modeling 
+  - day is finished 
+    - it could have been more productive but its better than beginning of the week.

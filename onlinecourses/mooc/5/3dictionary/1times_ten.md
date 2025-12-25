@@ -40,19 +40,14 @@ PATTERNS
 AI PATTERNS 
     -   are these also true ?
     -   Range-based iteration (inclusive bounds handling)
-    -       Transform-and-map (each key → key × 10)
--       Dictionary comprehension (concise construction idiom)
--       Parameterized object creation (function generalizes the rule)
--       are these also correct ?
-Mapping transformation over a sequence
-
-Inclusive range iteration
-
-Dictionary comprehension
-
-Pure deterministic function
-
-Precondition validation (optional but common)
+    -   Transform-and-map (each key → key × 10)
+    -   Dictionary comprehension (concise construction idiom)
+    -   Parameterized object creation (function generalizes the rule)
+    -   Mapping transformation over a sequence
+    -   Inclusive range iteration
+    -   Dictionary comprehension
+    -   Pure deterministic function
+    -   Precondition validation (optional but common)
 
 
 
