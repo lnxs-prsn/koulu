@@ -316,3 +316,19 @@ etäpv
     - added bit more for the domain modeling 
   - day is finished 
     - it could have been more productive but its better than beginning of the week.
+
+
+26.12
+etäpv
+  - found in the system the jupyter I thought I had not installed it just went to some random location 
+    - will resolve later
+  - proceeding where left with the mooc 5.3.2
+    - am grateful I finally solved one big problem in my programming 
+      - I have lots of solution but they all go same direction 
+      - from now on I have an way to diversify my solution path 
+    - CAUTION!
+      - achieved understanding is not presently compatiple with outlined goal of learning 
+        - present goal is easier comprehesion of the problem understanding 
+          - diversifying solution path leads to looking too long on one problem.
+            - which in turn will slow the horizontal learning which is very important as of now
+            - later I can focus on vertical depth.
