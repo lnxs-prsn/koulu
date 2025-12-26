@@ -66,18 +66,30 @@ What are the main "things" involved?
 
 For EACH thing:
 
-- What DATA does it need? ________________
-- What ACTIONS can it do? ________________
-- How does it relate to others? __________
+BOOK
+
+- What DATA does it need?: author, title, content, available
+- What ACTIONS can it do?: it can change its state
+- How does it relate to others?: library tells it to change state of attribute to true or false
+
+MEMBER
+
+- What DATA does it need?: name, address, inborrowing_list
+- What ACTIONS can it do? request checkout, request return
+- How does it relate to others? requests library 
+
+LIBRARY
+
+- What DATA does it need?: list of books, list of members 
+- What ACTIONS can it do? it can create members and books, checkout and return books, enforce coordination rules
+- How does it relate to others? it tell when others can do something
 
 -
 
 ### **PART 3: DESIGN DECISIONS**
 
 Structure:
-[ ] Single class
 [ ] Multiple independent classes  
-[ ] Classes with inheritance (Parent→Child)
 [ ] Classes with composition (Container→Contained)
 
 Communication:

@@ -318,7 +318,7 @@ etäpv
     - it could have been more productive but its better than beginning of the week.
 
 
-26.12
+26.12                                   !!!
 etäpv
   - found in the system the jupyter I thought I had not installed it just went to some random location 
     - will resolve later
@@ -332,3 +332,7 @@ etäpv
           - diversifying solution path leads to looking too long on one problem.
             - which in turn will slow the horizontal learning which is very important as of now
             - later I can focus on vertical depth.
+  - next OOP 
+    - good progress improved understanding about how object communicate 
+      - essense is to enable the communication in the object level 
+      - and then main() links the objects so there is never hardwired communication between objects 
