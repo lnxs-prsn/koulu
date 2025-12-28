@@ -38,16 +38,16 @@ class SalaryEmployee(Employee):
     
 
 class HourlyEmployee(Employee):
-    def __init__(self, id, name, hour_rate):
+    def __init__(self, id, name, hour_rate, hours_worked):
         super().__init__(id, name)
         self.salary = 'H'
         self.hour_rate = int(hour_rate)
-        self.hours_worked = 0
+        self.hours_worked = int(hours_worked)
 
     def ask_salary(self):
         try: 
-            self.hour_rate = int(input("Please enter hourly rate:"))
             self.hours_worked = int(input("Please enter hours worked:"))
+            self.hour_rate = int(input("Please enter hour rate:"))
         except:
             self.hour_rate = 0    
 
@@ -57,21 +57,25 @@ class HourlyEmployee(Employee):
     
 
 
-class CommissionEmployee(Employee):
-    def __init__(self, id, name, commission):
-        super().__init__(id, name)
+class CommissionEmployee(SalaryEmployee):
+    def __init__(self, id, name,monthly_salary, commission):
+        super().__init__(id, name, monthly_salary)
         self.salary = 'C'
+        self.monthly_salary = int(monthly_salary)
         self.commission = int(commission)
 
     def ask_salary(self):
         try: 
+            self.monthly_salary = int(input("Please enter monthly salary:"))
             self.commission = int(input("Please enter commission:"))
         except:
             self.commission = 0    
 
     def calculate_salary(self):
-        return self.monthly_salary
-    
+        return self.monthly_salary + self.commission
+
+
+
 
 
 

@@ -93,14 +93,11 @@ Structure:
 [ ] Classes with composition (Container→Contained)
 
 Communication:
-[ ] Direct calls between objects
 [ ] Through central coordinator
 [ ] Events/messages
 
 Data Storage:
 [ ] In-memory only
-[ ] Files
-[ ] Database (later)
 
 -
 

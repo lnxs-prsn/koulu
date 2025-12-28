@@ -336,3 +336,12 @@ etäpv
     - good progress improved understanding about how object communicate 
       - essense is to enable the communication in the object level 
       - and then main() links the objects so there is never hardwired communication between objects 
+  
+
+27.12/ 60 min
+  - viope day
+    - finished the 1.7 task
+
+26.12/ 60min
+  - PEMT REVIEW DAY 
+    - failed but I know exactly what needs to change next week thanks to this review
