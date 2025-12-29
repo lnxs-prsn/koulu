@@ -2,9 +2,9 @@
 
 29.12(
 p1
-    -   a
+    -   mistake count: 0
 p2
-    -   a
+    -   mistake count: (1,1,1),(1,1,1,1,1,1,1,1
 )
 
 

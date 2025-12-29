@@ -29,32 +29,16 @@ CORE OF PATTERN RECOGNITION
 
 
 
-
-
-LOGICAL OPERATIONS 
-    -   factorials(n:int)
-        -   receives n int
-        -   init empty dict
-        -   init for loop over the range of n and set the range to start from 1 and go to n+1
-            -   factorial: int
-            -   storage: int = 2 # can be obtimized by setting to outerindex + 1 incases where outer index is more than 2
-            -   if outer index is 1 or if outer index is 2
-                -    dict[outerindex]= outerindex
-            -   init for loop over range of outer loop index set to start from 2 and to outerloop index 
-                -   storage = storage * (innerloop index +1)
-                -   #*
-                -   factorial = storage
-            -   if outer index > 2
-                -   dict[outerindex] = factorial
-        -   return dict
--   thinking mistakes in logical operations 
-    -   if innerloop index == outerloop index # wrong the loop ends before reaching the condition   *
-
-
-
-PATTERNS
-    -   what are invariants
-        -   the growth process is constant
-            -   (((x)*(y))*(z))*(v)
-            -   after the x and y the z is determined by the sum of x and y and v is determined by the sum of xyz etc
-            -   
+Please write a function named count_matching_elements(my_matrix: list, element: int), which takes a two-dimensional array of integers and a single integer value as its arguments. The function then counts how many elements within the matrix match the argument value.
+LOGICAL OPERATIONS
+    -   init func
+    -   receives a list of list and a int
+    -   variable to store result
+    -   init loop
+    -   print string
+    -   init loop2
+    -   iterate elements
+    -   if there is match to argument provided to list
+    -   increment the value of the storge variable by 1
+    -   return storage variable 
+1. 

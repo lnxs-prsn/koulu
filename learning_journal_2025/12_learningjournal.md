@@ -342,6 +342,25 @@ etäpv
   - viope day
     - finished the 1.7 task
 
-26.12/ 60min
+28.12/ 60min
   - PEMT REVIEW DAY 
     - failed but I know exactly what needs to change next week thanks to this review
+
+29.12/
+etäpv
+  - procedural 7 step template
+    - its really great to use this template 
+    - I gave logical operations of 2 task to ai and it used the 7step template to do it
+      - I understood so much with just walking it through twice
+    - I did 1 task 
+      - I understand far more about the pattern recognition than ever before by just doing one task
+      - now I understand how patterns emerge.
+      - I need to freeze this knowledge by doing it as many times as I can this week
+        - simpler the task better
+  - OOP principle template
+    - template is simple 
+      - my understanding is too limited 
+      - I know that the objects should have authority structure when communicating
+        - am too stuck with this version central coordinator
+        - there can be other ways to communicate besides that
+          - I just dont know how do those emerge nor do I actually know when does central coordinator emerge either.

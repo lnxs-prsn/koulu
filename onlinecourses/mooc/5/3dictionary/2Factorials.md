@@ -13,22 +13,30 @@ Sample output
 1
 6
 120
-
 LOGICAL OPERATIONS 
     -   factorials(n:int)
         -   receives n int
         -   init empty dict
+        -   init factorial 1
         -   init for loop over the range of n and set the range to start from 1 and go to n+1
-            -   factorial: int
-            -   storage: int = 2 # can be obtimized by setting to outerindex + 1 incases where outer index is more than 2
-            -   if outer index is 1 or if outer index is 2
-                -    dict[outerindex]= outerindex
-            -   init for loop over range of outer loop index set to start from 2 and to outerloop index 
-                -   storage = storage * (innerloop index +1)
-                -   #*
-                -   factorial = storage
-            -   if outer index > 2
-                -   dict[outerindex] = factorial
+            -   factorial = factorial * index 
+            -   dict[index] = factorial
         -   return dict
 -   thinking mistakes in logical operations 
     -   if innerloop index == outerloop index # wrong the loop ends before reaching the condition   *
+
+
+
+PATTERNS
+    -   what are invariants
+        -   process is constant accumulation through multiplication
+            -   (((x)*(y))*(z))*(v)
+            -   after the x and y the z is determined by the sum of x and y and v is determined by the sum of xyz etc
+
+
+AI PATTERNS (WITH THE 7 QUESTION TEMPLATE)
+    -   Cumulative product pattern: Each result builds on the previous one by multiplying the next integer.
+    -   Uniform iteration: The same operation applies to every item — no true special cases.
+    -   Single-pass accumulation: No need to recompute from scratch; one loop suffices.
+    -   State-carrying loop: A running value (factorial) is updated and stored at each step.
+    -   Sequential dependency: The value for k depends directly on the value for k−1.

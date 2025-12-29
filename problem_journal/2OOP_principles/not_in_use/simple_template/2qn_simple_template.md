@@ -13,21 +13,15 @@ Build objects that **do their job** without needing others to poke inside them.
 
 ## Your classes  
 
-```
-
 [Name] – [action-focused description]  
   uses: [only what it can’t do itself]  
   actions: [verbs that match real behavior]
-```
 
 _Example:_  
-
-```
 
 Thermostat – maintains room temperature  
   uses: Heater, Sensor  
   actions: check_temperature(), turn_on_heater(), decide_if_comfortable()
-```
 
 ## Guardrail  
 
@@ -49,4 +43,3 @@ This version:
 - Avoids repeating your exact section names  
 - Keeps the **essence** (simplicity, behavior, collaboration) but expresses it freshly  
 - Stays **project-agnostic** and **beginner-clear**
-

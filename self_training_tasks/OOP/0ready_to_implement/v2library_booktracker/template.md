@@ -94,7 +94,6 @@ Structure:
 
 Communication:
 [ ] Through central coordinator
-[ ] Events/messages
 
 Data Storage:
 [ ] In-memory only
@@ -103,16 +102,20 @@ Data Storage:
 
 ### **PART 4: IMPLEMENTATION PLAN**
 
-PHASE 1: Build ________________________
-         (Test: Can it ________________?)
+PHASE 1: Build member and book classes separately
+         (Test: Can it create a book?, Can it create member that can track its borrowed books count)
 
-PHASE 2: Add _________________________
-         (Connects via: _______________)
+PHASE 2: Add library class to hold lists
+         (Connects via: library will store list of book and member objects)
 
-PHASE 3: Add _________________________
-         (Completes: __________________)
+PHASE 3: Add checkout and return methods to library
+         (Completes: full borrowing system with all the rules enforced)
 
-STOP CRITERIA: _______________________
+STOP CRITERIA: 
+   1. member can borrow available book
+   2. member cannot borrow more than 3 books
+   3. member cannot borrow book that is already checked out 
+   4. returned books become available again
 
 -
 
