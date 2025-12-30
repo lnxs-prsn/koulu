@@ -4,15 +4,15 @@
 p1
     -   mistake count: 0
 p2
-    -   mistake count: (1,1,1),(1,1,1,1,1,1,1,1
+    -   mistake count: (1,1,1),(1,1,1,1,1,1,1,1)
 )
 
 
 30.12(
 p1
-    -   a
+    -   mistake count: (0,1,1,1)
 p2
-    -   a
+    -   mistake count: (1,
 )
 
 31.12(

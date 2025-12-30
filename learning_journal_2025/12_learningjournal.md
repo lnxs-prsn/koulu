@@ -364,3 +364,14 @@ etäpv
         - am too stuck with this version central coordinator
         - there can be other ways to communicate besides that
           - I just dont know how do those emerge nor do I actually know when does central coordinator emerge either.
+
+
+30.12/
+etäpv
+  - procedural 7 step template
+    - I can now fill quite fast the template but still cannot derive the pattern
+    - issue is either that I lack vocabulary or deeper understanding 
+    - !!its not importan at this point to derive the patterns 
+      - its important to have means to locate them then when necessary 
+  - OOP
+    - 

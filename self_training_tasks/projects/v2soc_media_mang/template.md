@@ -43,70 +43,51 @@ AI:
 
 -
 
-### **PART 2: IDENTIFY CORE COMPONENTS**
+### **PART 2: IDENTIFY CORE COMPONENTS**  # I got this part wrong ai solution is what am using here
 
-What are the main "things" involved?
-• feed (most important)
-• user
-• post
-
-For EACH thing:
-FEED
-
-- What DATA does it need? post, user
-- What ACTIONS can it do? it can add post to feed, it can ensure that rules are applied correctly
-- How does it relate to others? it coordinates
-
-For EACH thing:
-USER
-
-- What DATA does it need? username,bio
-- What ACTIONS can it do? it can make post and request them to be added to feed, it can like post of other users
-- How does it relate to others? it interacts throught the feed
-
-For EACH thing:
-POST
-
-- What DATA does it need? user, content, like
-- What ACTIONS can it do? it can store data
-- How does it relate to others? its acted on by the coordinator
--
-
-AI
 What are the main "things" involved?
 • user (most important)
 • post
 • feed
 
 For EACH thing:
+USER
 
-- What DATA does it need? ________________
-- What ACTIONS can it do? ________________
-- How does it relate to others? __________
+- What DATA does it need? username,list of post they created, (liked posts)
+- What ACTIONS can it do? create_post(), like_post(), view_feed()
+- How does it relate to others? user creates posts,likes posts and views the feed
 
-### **PART 3: DESIGN DECISIONS**
+For EACH thing:
+POST
+
+- What DATA does it need? content, author:User object,likes_count, time_stamp 
+- What ACTIONS can it do? add_like(), view_post_info()
+- How does it relate to others? post belongs to a User, appears in the feed, can be liked by Users
+
+For EACH thing:
+FEED
+
+- What DATA does it need? collection/list of all posts, 
+- What ACTIONS can it do? add_post(), display_feed(), sort_by_time(), sort_by_likes()
+- How does it relate to others? feed contains posts from multiple Users and displays them to the Users
+
+### **PART 3: DESIGN DECISIONS** # got this wrong
 
 Structure:
-[ ] Single class
-[ ] Multiple independent classes  
-[ ] Classes with inheritance (Parent→Child)
 [ ] Classes with composition (Container→Contained)
+- user creates post, user likes a post
 
 Communication:
 [ ] Direct calls between objects
-[ ] Through central coordinator
-[ ] Events/messages
 
 Data Storage:
 [ ] In-memory only
-[ ] Files
-[ ] Database (later)
 
 -
 
 ### **PART 4: IMPLEMENTATION PLAN**
 
-PHASE 1: Build ________________________
+PHASE 1: Build User and Post classes with basic relationships
          (Test: Can it ________________?)
 
 PHASE 2: Add _________________________
