@@ -374,4 +374,20 @@ etäpv
     - !!its not importan at this point to derive the patterns 
       - its important to have means to locate them then when necessary 
   - OOP
-    - 
+    - I now know other ways communication happens between classes
+    - I have new template that solves this 
+  - I have templates but they are useful only in the understanding phase
+
+
+31.12/ last day of gregorian calendar
+etäpv
+  - I got distracted by the calendar but I found myself an solution to my problem with the deadlines
+    - I am now more confident of reaching deadlines 
+      - distraction but positive outcome distraction
+  - next is the procedural thinking template for pattern recognition
+    - I succeeded making only one task and it had 1 mistake 
+      - mistake was task intrepretation related which is quite often repeating problems
+
+
+
+year has come to and end

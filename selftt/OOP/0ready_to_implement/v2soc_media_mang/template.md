@@ -88,15 +88,19 @@ Data Storage:
 ### **PART 4: IMPLEMENTATION PLAN**
 
 PHASE 1: Build User and Post classes with basic relationships
-         (Test: Can it ________________?)
+         (Test: Can I create user, can user create post, does the post reference correctly user?)
 
-PHASE 2: Add _________________________
-         (Connects via: _______________)
+PHASE 2: Add feed class to aggregate post (to add and store post)
+         (Connects via: feed has an method that receives and post object any user can pass to it a post)
 
-PHASE 3: Add _________________________
-         (Completes: __________________)
+PHASE 3: Add like method to the post and ensure that no object exist without connection it was designed to have
+         (Completes: users can like post, posts track likes, all relationships remain valid)
 
-STOP CRITERIA: _______________________
+STOP CRITERIA: 
+    1. users can create post that correctly remembers its author
+    2. users can like other users posts, updating post like count
+    3. the feed can display all posts with their author and like counts
+    4. no post exists without a valid user author
 
 -
 
