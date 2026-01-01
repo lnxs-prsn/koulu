@@ -21,20 +21,28 @@ p1
     -   mistake count: (!1,)
     -   nature of mistake: !task interpretation mistake
 p2
-    -   mistake count: (!1,*1,)
+    -   mistake count: (!1,*1,¤1)
     -   nature of mistake:
         -   ! not reading the task requirement fully
         -   * did not understand the how many actions deposit should hold 
-            -   it should not just update the balance but also create and store the transaction account to record
+            -   it should not just update the balance but also create and store the transaction account to record one task
+            -   should take one function not divided to multiple functions
+        -   ¤ too vague solution if am passing this to someone else to finish then they would have too much ambiguety more precision when defining
 )
 
 1.1(
 p1
-    -    mistake count:
-    -   nature of mistake
+    -    mistake count:0,!1,*1,
+    -   nature of mistake: ! the mistake is generally correct answer but not incorrect definition detail
+        -   * clear mistake did not think to say its cycle in the question4
 p2
-    -    mistake count:
+    -    mistake count: continued from yesterday(!-1,*-1, ¤1)
     -   nature of mistake
+        -   !- did not know how to think correctly to get correct answers (I had no idea how to solve "How does it relate to others?" )
+        -   *- made the bank behave like god object it managed task that belonged to inside of the account object
+                -   when object starts managing task that belong inside other objects there is something wrong
+        -   ¤- part 4 more detailed test cases and more clearer explanation in the connects section
+                -   completes section need to explain what object does exactly
 )
 
 2.1(

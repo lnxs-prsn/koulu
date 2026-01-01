@@ -36,53 +36,50 @@ What are the main "things" involved?
 For EACH account:
 
 - What DATA does it need? id, owner, balance, transaction record: alist of tuples
-- What ACTIONS can it do? add_balance(), take_from_balance(), update_transaction_record()
-- How does it relate to others? not sure
+- What ACTIONS can it do? deposit() withraw() # both these functions have the functionality to create transaction instance
+- How does it relate to others? contains multiple transaction objects is managed by the bank object
  
 For EACH transaction:
 
 - What DATA does it need? amount, timestamp, type
-- What ACTIONS can it do? nothing
-- How does it relate to others? its acted on by the account
+- What ACTIONS can it do? get_details()(formatted info), is_valid()(positive amount, valid type)
+- How does it relate to others? created by the account during deposit/witdrawal, once created immutable
  
 For EACH bank:
 
-- What DATA does it need? list or dictionary of accounts that has list that takes tuples, 
-- What ACTIONS can it do? create_account(), create transaction, transfer(between accounts), statement()
-- How does it relate to others? could coordinate
+- What DATA does it need? account(dict mapping account_id,-> account object)
+- What ACTIONS can it do? create_account(account_number), find_account_by_owner_name(name) 
+- How does it relate to others? contains and manages multiple account objects, coordinates transfer between accounts
  
 ### **PART 3: DESIGN DECISIONS**
 
 Structure:
-[ ] Single class
-[ ] Multiple independent classes  
-[ ] Classes with inheritance (Parent→Child)
 [ ] Classes with composition (Container→Contained)
 
 Communication:
-[ ] Direct calls between objects
 [ ] Through central coordinator
-[ ] Events/messages
 
 Data Storage:
 [ ] In-memory only
-[ ] Files
-[ ] Database (later)
 
 -
 
 ### **PART 4: IMPLEMENTATION PLAN**
 
-PHASE 1: Build ________________________
-         (Test: Can it ________________?)
+PHASE 1:  Build account
+         (Test: Can it deposit/withdraw? )
 
-PHASE 2: Add _________________________
-         (Connects via: _______________)
+PHASE 2: Add transaction, make it immutable class
+         (Connects via: account creates it when doing deposit or withdrawal )
 
-PHASE 3: Add _________________________
-         (Completes: __________________)
+PHASE 3: Add bank
+         (Completes: no invalid transactions and no mutable transaction objecst, coordinates transaction between objects and system level oversight )
 
-STOP CRITERIA: _______________________
+STOP CRITERIA: 
+  -   create account, deposit and withdrawal features
+  -   account cannot over draft and transactions are immutable
+  -   able to access statement
+  -   
 
 -
 

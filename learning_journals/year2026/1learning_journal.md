@@ -7,9 +7,15 @@
 2026-001/ 
 -   työharjoittelu aloitus on 90 pv päästä ja minulla ei ole vielä varmaa työharjoittelu paikkaa 
 -   olisi hyvä idea keskittää kaikki toiminta kohti työharjoittelu paikan löytämistä kohti
-
-
 etäpv
-    -   count starts today
-    -   
-
+    -   count starts today it would be also good to get muslim calendar date up just for reference
+    -   would be recommended to shift from python improvement towars getting training place. 
+        -   going to places where I can talk with people who can hire me are etc
+        -   also it would be good to start doing portfolio projects that I can showcase or start doing projects like advent of code etc.
+    -   next is the procedural template 
+        -   2 tasks done 2 mistakes
+    -   next is OOP principles
+        -   family situation pulled back schedule 
+        -   I finished yesterdays OOP task (took year  to finish one task)
+        -   I now have means to design an objects that are compliant to OOP principles 
+            -   really need to do lot more repetition but main structure is in place 
