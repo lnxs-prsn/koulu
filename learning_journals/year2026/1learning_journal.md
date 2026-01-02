@@ -19,3 +19,13 @@ etäpv
         -   I finished yesterdays OOP task (took year  to finish one task)
         -   I now have means to design an objects that are compliant to OOP principles 
             -   really need to do lot more repetition but main structure is in place 
+
+2.1/26002
+etäpv
+    -   began yesterday advent of code 2015 first task was lot easier than I expected 
+        -   I will make for it different repo I will keep doing them cos the mooc starts to get bit too easy even if I use the template
+    -   next is procedural thinking mooc tasks
+        -   did 2 task they had few mistakes 
+            -   learning important lesson how I should try to make my solution algorithm generally usable instead of solving 
+                -    just this specific task
+   -    this is all I have achieved today next am going to relax with aoc

@@ -47,8 +47,12 @@ p2
 
 2.1(
 p1
-    -    mistake count:
-    -   nature of mistake
+    -    mistake count: (!1,)(*1, ¤1
+    -   nature of mistake:
+        -   ! the mistake was that I made task specific solution when pattern based solutions demand generalized solutions 
+            -   that can solve wide variety of problems
+        -   * used incorrect terminology mutation changes original value transformation does not change the original value
+        -   ¤ made incorrect validation confused list value range to list index range
 p2
     -    mistake count:
     -   nature of mistake
