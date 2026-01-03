@@ -29,3 +29,8 @@ etäpv
             -   learning important lesson how I should try to make my solution algorithm generally usable instead of solving 
                 -    just this specific task
    -    this is all I have achieved today next am going to relax with aoc
+
+3.1/26003   60min
+    -   viope project
+        -   made the classes and set the relationships and as am doing this for fun I did not use the templates and this led to more wasted time 
+        -   back tracking which makes me grateful for the templates
