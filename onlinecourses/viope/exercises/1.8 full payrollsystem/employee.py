@@ -16,6 +16,7 @@ class SalaryEmployee(Employee):
         super().__init__(id)
         self.id
         self.salary = self.ask_salary()
+        self.type = 'M'
 
 
     def ask_salary(self):
@@ -34,6 +35,7 @@ class HourlyEmployee(Employee):
         super().__init__(id)
         self.hour_rate = self.ask_hour_rate()
         self.hours_worked = self.ask_hours_worked()
+        self.type = 'H'
 
     def ask_hour_rate(self):
         try:
@@ -58,6 +60,7 @@ class CommissionEmployee(SalaryEmployee):
     def __init__(self, id, salary):
         super().__init__(id, salary)
         self.commission = self.ask_commission()
+        self.type = 'C'
 
     def ask_commission(self):
         try:

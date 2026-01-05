@@ -1,0 +1,5 @@
+-   I dont understand how the payrollsystem interacats with the employee system
+    -   so the calculate_salary
+    -   answer its just to calculate payroll and  print it out 
+    -   I somehow thought that it would only compute and the
+    -   prensentation would be managed by the main().

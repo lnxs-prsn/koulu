@@ -1,14 +1,15 @@
+WEEK JUST CHANGE THE DATES
+
 
 
 5.1(
 p1
-    -   mistake count:0,
+    -   mistake count:
     -   nature of mistake
     -   biggest obstacle: 
 p2
-    -    mistake count: (!1,)
+    -    mistake count: 
     -   nature of mistake
-        -   !did not know quiz answers
     -   biggest obstacle:
 )
 
@@ -79,5 +80,3 @@ p2
     -   nature of mistake
     -   biggest obstacle:
 )
-
-

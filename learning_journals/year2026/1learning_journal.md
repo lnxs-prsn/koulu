@@ -31,6 +31,30 @@ etäpv
    -    this is all I have achieved today next am going to relax with aoc
 
 3.1/26003   60min
-    -   viope project
+    -   viope project 1.8 full payrollsystem
         -   made the classes and set the relationships and as am doing this for fun I did not use the templates and this led to more wasted time 
         -   back tracking which makes me grateful for the templates
+
+4.1/26004 60min
+    -   viope project 1.8 full payrollsystem
+        -   proceeded to read_write_system having bit of challenge how should I implement it ?
+            -   make it class or make it functions ? 
+                -   class would be more compact 
+                -   functions would be easier and I might be able to try it with recursion.
+
+5.1/26005
+etäpv
+    -   bit sick so might not do so much today
+    -   PEMT WAS NOT DONE YESTERDAY
+        -   next is pemt
+            -   done
+    -   next is the procedural thinking 
+        -   reviewed last weeks tasks assessed what to improve and came up with quiz 
+            -   the quiz template is in the procedural_thinking directory
+    -   next is the OOP principles 
+        -   due to current situation will focus on quiz setup 
+            -   that is todays success target
+            -   I have reached todays success target 
+            -   there are now quizes for 
+            -   SOLID, OOP
+    -   both procedural and OOP/SOLID Templates are added to problem journal directory

@@ -1,48 +1,78 @@
-1.1(
+12.1(
 p1
-    -   a
+    -   mistake count:
+    -   nature of mistake
+    -   biggest obstacle: 
 p2
-    -   a
+    -    mistake count: 
+    -   nature of mistake
+    -   biggest obstacle:
 )
 
-2.1(
+13.1(
 p1
-    -   a
+    -   mistake count:
+    -   nature of mistake
+    -   biggest obstacle: 
 p2
-    -   a
+    -    mistake count: 
+    -   nature of mistake
+    -   biggest obstacle:
 )
 
-3.1(
+14.1(
 p1
-    -   a
+    -   mistake count:
+    -   nature of mistake
+    -   biggest obstacle: 
 p2
-    -   a
+    -    mistake count: 
+    -   nature of mistake
+    -   biggest obstacle:
 )
 
-4.1(
+8.1(
 p1
-    -   a
+    -   mistake count:
+    -   nature of mistake
+    -   biggest obstacle: 
 p2
-    -   a
+    -    mistake count: 
+    -   nature of mistake
+    -   biggest obstacle:
 )
 
-5.1(
+9.1(
 p1
-    -   a
+    -   mistake count:
+    -   nature of mistake
+    -   biggest obstacle: 
 p2
-    -   a
+    -    mistake count: 
+    -   nature of mistake
+    -   biggest obstacle:
 )
 
-6.1(
+
+10.1(
 p1
-    -   a
+    -   mistake count:
+    -   nature of mistake
+    -   biggest obstacle: 
 p2
-    -   a
+    -    mistake count: 
+    -   nature of mistake
+    -   biggest obstacle:
 )
 
-7.1(
+
+11.1(
 p1
-    -   a
+    -   mistake count:
+    -   nature of mistake
+    -   biggest obstacle: 
 p2
-    -   a
+    -    mistake count: 
+    -   nature of mistake
+    -   biggest obstacle:
 )
