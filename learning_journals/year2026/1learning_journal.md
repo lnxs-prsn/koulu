@@ -57,4 +57,16 @@ etäpv
             -   I have reached todays success target 
             -   there are now quizes for 
             -   SOLID, OOP
-    -   both procedural and OOP/SOLID Templates are added to problem journal directory
+    -   both procedural and OOP/SOLID  quiz Templates are added to problem journal directory
+
+
+6.1/26006 
+etäpv
+    -   still sick but not as much as yesterday 
+        -   cannot really focus for an long time at the moment so I will just try my best 
+            -   no sense of failure needed as even being here now counts as success
+    -   starting with the mooc but if state deteriorates then I shift to quiz as in there I really dont have to focus 
+        -   did 2 mooc tasks using the pattern template
+    -   next OOP task using the template
+        -   might not be able to actually do it if not then I will do the quiz on OOP principles
+        -   part 2 not ready
