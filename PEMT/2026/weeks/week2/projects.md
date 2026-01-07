@@ -32,8 +32,10 @@ p2
 
 7.1(
 p1
-    -   mistake count:
+    -   mistake count:(!1,*1)
     -   nature of mistake
+        -   ! in q6 imprecise definition which can lead to bigger problems
+        -   * in q7 in correct starting point definition function does not traverse the str multiple times just once when efficient
     -   biggest obstacle: 
 p2
     -    mistake count: 

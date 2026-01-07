@@ -70,3 +70,18 @@ etäpv
     -   next OOP task using the template
         -   might not be able to actually do it if not then I will do the quiz on OOP principles
         -   part 2 not ready
+
+7.1/26007
+etäpv
+    -   got worse cos yesterday had to go do groceries.
+        -   so today I feel not well at all but have to do atleast a little 
+            -   todays goals is one task each and then I can shift to quiz if I run out of focus
+    -   next is procedural template 
+        -   did one task and proceeded to quiz 
+            -   the quiz needs lots of repetitions to learn the terminology
+            -   and connect pattern with tasks description
+    -   next is OOP principles template
+        -   insight from previous day
+            -   OOP principles resemble double book keeping
+            -   the part 4 is not finished 
+            -   tomorrow might not be possible to do the project

@@ -48,47 +48,42 @@ What are the main "things" involved?
 For EACH product:
 
 - What DATA does it need? id, name, price, stock_quantity
-- What ACTIONS can it do? update_stock(), check_availability(), 
-- How does it relate to others? customer tells cart adds it to cart, order tells it to update its stock_quantity
+- What ACTIONS can it do? add_stock(),decrease_stock(), check_availability(), 
+- How does it relate to others? Contained in Cart items, referenced in Order items
 
 For EACH customer:
 
 - What DATA does it need? id, name, email, address
-- What ACTIONS can it do? place_order(),tell cart to add product to cart
-- How does it relate to others? tells cart to add product to itself, tells cart to checkout
-
-For EACH order:
-
-- What DATA does it need? order_id, customer object, items product objects, status: 'pending'/'shipped'/'delivered'
-- What ACTIONS can it do? update_stock(), update_status(), place_order() 
-- How does it relate to others? it sends products to customer, it tells product to update its amount
+- What ACTIONS can it do? Create account, browse products, manage cart, place orders
+- How does it relate to others? owns cart, places order
 
 For EACH cart:
 
-- What DATA does it need? customer object, items multiple product objects, total_price
-- What ACTIONS can it do? calculate_total(items), add_item(product, quantity), remove_item(product), clear(), checkout()
-- How does it relate to others? it stores product objects
+- What DATA does it need? customer (reference), items (list of products with quantities), total_price
+- What ACTIONS can it do? Add/remove items, calculate total, clear cart, convert to order
+- How does it relate to others? Belongs to one Customer, becomes an Order upon checkout
 
 
+
+For EACH order:
+
+- What DATA does it need? order_id, customer, items, status ('pending'/'shipped'/'delivered')
+- What ACTIONS can it do? Place order (updates product stock), update status, cancel order (potentially restock items)
+- How does it relate to others? Created from Cart, references Customer and 
 -
 
 ### **PART 3: DESIGN DECISIONS**
 
 Structure:
-[ ] Single class
-[ ] Multiple independent classes  
-[ ] Classes with inheritance (Parent→Child)
-[ ] Classes with composition (Container→Contained)
+
+[x] Classes with composition (Container→Contained)
 
 Communication:
-[ ] Direct calls between objects
-[ ] Through central coordinator
-[ ] Events/messages
+[x] Direct calls between objects
+
 
 Data Storage:
-[ ] In-memory only
-[ ] Files
-[ ] Database (later)
+[x] In-memory only
 
 -
 
@@ -99,18 +94,18 @@ PART 4: IMPLEMENTATION PLAN (Dependency-Driven Version)
 STEP 1: Identify FOUNDATION from "Simplest Version"
 From PART 1 Question 2: What's the SIMPLEST possible version that would work?
 
-Answer: _______________________
+Answer: customer takes product puts it in to cart and pays for the product then product stock is reduced.
 
-Therefore Phase 1 must build: _______________________
+Therefore Phase 1 must build: customer
 
 STEP 2: Map DEPENDENCIES from Core Components
 From PART 2: What depends on what?
 
-________________ depends on ________________
+cart depends on customer
 
-________________ depends on ________________
+order depends on cart
 
-________________ depends on ________________
+product depends on customer/order
 
 Therefore build order: 1 → 2 → 3
 
@@ -119,37 +114,35 @@ From PART 3: How will objects talk?
 
 Direct calls = Objects interact immediately
 
-Coordinator = Objects go through middleman
 
-Events = Objects broadcast/listen
 
-Therefore connection method: ________________
+Therefore connection method: composition
 
 STEP 4: Address CORE CHALLENGE
 From Problem Statement: What's the hardest part?
 
-Challenge: ________________
+Challenge: Core Challenge: Ensure stock updates when items are purchased, prevent negative inventory, and manage order state transitions.
 
-Therefore final phase must handle: ________________
+Therefore final phase must handle: validation and state update
 
 STEP 5: Create PHASES Based on Dependencies
-PHASE 1: Build ________________________
-(Test: Can it ________________? ← Tests foundation)
+PHASE 1: Build product
+(Test: Can it store data update stock amount? ← Tests foundation)
 
-PHASE 2: Add _________________________
-(Connects via: _______________ ← Uses Step 3 pattern)
+PHASE 2: Add customer
+(Connects via: composition ← Uses Step 3 pattern)
 
-PHASE 3: Add _________________________
-(Completes: __________________ ← Solves Step 4 challenge)
+PHASE 3: Add cart and order
+(Completes: manages validation and state update ← Solves Step 4 challenge)
 
 STEP 6: Define STOP CRITERIA
 From User Requirements in PART 1: What should users be able to DO?
 
-✅ ________________________
+✅ have an account and have an cart 
 
-✅ ________________________
+✅ browse and add only products with available stock to cart and check out
 
-✅ ________________________
+✅ update state of available stock after checkout
 
 
 consider fro the step 6 this kind of organizing
