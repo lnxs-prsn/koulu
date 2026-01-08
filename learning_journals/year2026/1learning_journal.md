@@ -85,3 +85,10 @@ etäpv
             -   OOP principles resemble double book keeping
             -   the part 4 is not finished 
             -   tomorrow might not be possible to do the project
+
+
+8.1/26008
+sick day
+    -   resting actually helps.
+    -   might rest tomorrow too.
+    -   will do bit of an AOC

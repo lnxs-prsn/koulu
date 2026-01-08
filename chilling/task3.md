@@ -14,7 +14,7 @@ For example:
 simpler definition of the problem
 1.  count how many houses does he visit
     1.   how?
-         1.   
+         1.   turn every symbol to number if they sum up to same then 
 
 LOGICAL OPERATIONS
     -   options = ['>','<', '', '^','v']
@@ -22,6 +22,6 @@ LOGICAL OPERATIONS
     -   previous = ''
     -   open the file
     -   for direction in directions
-        -   if abs(options.find(previous)-options.find(direction)) != 1 # solved ^v^v^v^v^
+        -   if abs(options.find(previous)-options.find(direction)) != 1 # solved ^v and ><
         -   count += 1
         -   figure out how to find out circular visit ^>v<
