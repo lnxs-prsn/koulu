@@ -158,17 +158,22 @@ Core operations (create, deposit, withdraw)
 
 ### **PART 4: IMPLEMENTATION PLAN**
 
-PHASE 1: Build ________________________
-         (Test: Can it ________________?)
+PHASE 1: Build product
+(Test: Can it store data update stock amount? ← Tests foundation)
 
-PHASE 2: Add _________________________
-         (Connects via: _______________)
+PHASE 2: Add customer
+(Connects via: composition ← Uses Step 3 pattern)
 
-PHASE 3: Add _________________________
-         (Completes: __________________)
 
-STOP CRITERIA: _______________________
+PHASE 3: Add cart and order
+(Completes: manages validation and state update ← Solves Step 4 challenge)
 
+STOP CRITERIA: 
+✅ have an account and have an cart 
+
+✅ browse and add only products with available stock to cart and check out
+
+✅ update state of available stock after checkout
 -
 
 ## **HOW TO USE THIS TEMPLATE:**

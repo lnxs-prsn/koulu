@@ -25,3 +25,8 @@ LOGICAL OPERATIONS
         -   if abs(options.find(previous)-options.find(direction)) != 1 # solved ^v and ><
         -   count += 1
         -   figure out how to find out circular visit ^>v<
+        -    ^  > v <  
+        -    3  0 4 1  
+        -    if set is of the list is 3 and if sum is 8 or becomes 8 after adding current then do not increment the count
+        -    if set(list) == 3 and (sum(list) == 8 or sum(list)+current == 8) # this wont make full solution but doing it might help solve full solution 
+             -    continue # problem case 3+3+1  but if I empty the list when ever there is repetition then this problem should never happen?

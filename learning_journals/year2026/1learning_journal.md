@@ -92,3 +92,21 @@ sick day
     -   resting actually helps.
     -   might rest tomorrow too.
     -   will do bit of an AOC
+
+9.1/26009
+    -   sick day
+
+10.1/26010
+    -   sick day
+
+11.1/26011
+    -   sick day
+
+12.1/27012
+school day
+    -   mostly about how to improve your chances to get training place
+    -   still not well 
+    -   failed the mooc task
+        -   did not start due to distraction
+    -   next is OOP 
+        -   task is finished
