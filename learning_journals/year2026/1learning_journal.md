@@ -102,11 +102,36 @@ sick day
 11.1/26011
     -   sick day
 
-12.1/27012
+12.1/26012
 school day
     -   mostly about how to improve your chances to get training place
     -   still not well 
     -   failed the mooc task
         -   did not start due to distraction
     -   next is OOP 
-        -   task is finished
+        -   task v1ecommerce is finished
+
+13.1/26013
+school day
+    -   about git 
+        -   mostly about how to access the github from local git
+        -   had it mostly in my understanding learned few new things about the 
+        -   forking and visibility options and contributors adding to repo
+    -   ran errands in the east this day and most of the week will be same
+
+14.1/26014
+etäpv
+    -   related course and how to proceed from now on
+after school
+    -   ran errands in the ikea and other stores 
+
+15.1/26015
+etäpv
+    -   last git day
+    -   learned a lot of important this related to local cooperation and git strategies 
+        -   I will learned basics and likelyhood of encountering them in work life
+            -   some strategies show clearly level of the organization one is joining 
+                -   so its good indicator which organizations to avoid.
+    -   today will mostly be setting up the home office
+        -   and organizing to be productively
+-   
