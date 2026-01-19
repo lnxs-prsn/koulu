@@ -134,4 +134,26 @@ etäpv
                 -   so its good indicator which organizations to avoid.
     -   today will mostly be setting up the home office
         -   and organizing to be productively
--   
+
+16.1/26016
+school day
+    -   learned interfaces 
+        -   I have lot to learn after drilling my understanding in the python better I will improve this also 
+    -   I seem to have over excerted myself this week fell sleep after coming home.
+
+17.1/26017 60min
+    -   went bit sick to school and over excerted myself last week 
+    -   today I will do bare minimum and thats it for the day 
+    -   tommorrow I might not be able to rest so much as house chores have built up a bit.
+
+
+18.1/26018 PEMT DAY
+    - PEMT done
+
+
+19.1/26019
+school day
+    -   I feel that the diagrams and customer flow charts are improving my undestanding about how to do a project well
+home
+    -   p1 done
+    -   p2 halfway
