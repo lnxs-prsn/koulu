@@ -40,44 +40,37 @@ For EACH patient:
 
 - What DATA does it need? id, name, medical_history
 - What ACTIONS can it do? request_appointment
-- How does it relate to others? it is stored in the appointment
+- How does it relate to others? it is stored in the appointment and in the hospital
 
 For EACH doctor:
 
 - What DATA does it need? id, name, specialization
 - What ACTIONS can it do? refuse
-- How does it relate to others? __________
+- How does it relate to others? is stored in the appointment and hospital
 
 For EACH appointment:
 
 - What DATA does it need? patient, doctor, datetime, status
-- What ACTIONS can it do? ________________
-- How does it relate to others? __________
+- What ACTIONS can it do? set_appointment(patient,doctor, datetime, status)
+- How does it relate to others? referenced by the doctor and patient stored in the hospital
 
 For EACH hospital:
 
-- What DATA does it need? doctors, patients, schedule_appointment(), cancel_appointment()
-- What ACTIONS can it do? ________________
-- How does it relate to others? __________
+- What DATA does it need? doctors, patients,
+- What ACTIONS can it do?  schedule_appointment(), cancel_appointment()
+- How does it relate to others? stores doctor, patient, stores doctor
 -
 
 ### **PART 3: DESIGN DECISIONS**
 
 Structure:
-[ ] Single class
-[ ] Multiple independent classes  
-[ ] Classes with inheritance (Parent→Child)
 [ ] Classes with composition (Container→Contained)
 
 Communication:
-[ ] Direct calls between objects
 [ ] Through central coordinator
-[ ] Events/messages
 
 Data Storage:
 [ ] In-memory only
-[ ] Files
-[ ] Database (later)
 
 -
 
