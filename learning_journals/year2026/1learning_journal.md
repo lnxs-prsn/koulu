@@ -164,3 +164,10 @@ school day
 home
     -   p1 done
     -   p2 done
+
+21.1/26021
+school day
+    -   learning a lot about my limitions when it comes for my independent python programming
+home
+    -   p1 done
+    -   p2 only last section of part 4

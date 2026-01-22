@@ -25,18 +25,24 @@ p1
         -   
     -   biggest obstacle: 
 p2
-    -    mistake count: 
+    -    mistake count: (!part1, *part2, @part4)
     -   nature of mistake
+        -   ! 1 mistake imprecise definition
+        -   * 3 mistakes, doctor missing methods, appointmen missing validation, hospital stores appointments
+        -   @ 8 mistakes, serious not understanding 
     -   biggest obstacle:
 )
 
 21.1(
 p1
-    -   mistake count:
+    -   mistake count:(!1,*1)
     -   nature of mistake
+        -   ! step 5 incorrect unique data is treated universally same
+        -   * step 6 there is misunderstanding on the meaning of in place swap in place means not creating new data structure 
+        -   
     -   biggest obstacle: 
 p2
-    -    mistake count: 
+    -    mistake count: ()
     -   nature of mistake
     -   biggest obstacle:
 )
