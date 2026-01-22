@@ -19,8 +19,10 @@ p2
 
 20.1(
 p1
-    -   mistake count:
+    -   mistake count:(!1, *1)
     -   nature of mistake
+        -   !logical operations imprecise
+        -   
     -   biggest obstacle: 
 p2
     -    mistake count: 

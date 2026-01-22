@@ -157,3 +157,10 @@ school day
 home
     -   p1 done
     -   p2 halfway
+
+20.1/26020
+school day
+    -   interesting day GUI day and I learned quite a bit.
+home
+    -   p1 done
+    -   p2 done
