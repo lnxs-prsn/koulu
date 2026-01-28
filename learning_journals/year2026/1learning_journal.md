@@ -171,3 +171,52 @@ school day
 home
     -   p1 done
     -   p2 only last section of part 4
+
+22.1/26022
+etä/koulu
+    -   cloud related mostly general I thought we would get some access to some azure as most of the school is using microsoft infra
+        -   but its unlikely to be as my guess is that azure is not trying to win over schools 
+    -   on the side made unnecesarily complex fix on the merge conflict I some how achieved have been rare lately.
+home
+    -   progress is steady. most of the pain is gone for the future I will think of buying tens or ems
+    -   p1 not ready but really fun task to work on.
+    -   p2 done 14 mistakes
+
+
+23.1/26023
+school day
+    -   p1 there was an error in thinking 
+    -   p2 finished the yesterdays OOP task by filling in detailed mistakes
+
+24.1/26024  60 min
+PEMT
+    - DONE
+
+25.1/26025  60min
+    -   listened python podacast
+
+
+26.1/26026
+school day
+    -   today learned about flet framework 
+        -   its quite easy to understand it
+home
+    -   p1 done
+    -   p2 in progress
+
+
+27.1/26027
+school day
+    -   learned about kivy
+home
+    -   did home work from school
+
+28.1/26028
+school day
+    -   learned about pandas
+        -   for me it was mostly remembering than learning 
+        -   I had forgotten how fun data-analytics was
+home
+    -   catching up with my own tasks 
+        -   will figure out how to speed up my python mooc
+    -   p1 

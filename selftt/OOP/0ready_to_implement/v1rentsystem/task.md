@@ -153,12 +153,15 @@ PHASE 1: Build vehicle
          (Test: Can it store vehicle data?)
 
 PHASE 2: Add customer and rental
-         (Connects via: flee )
+         (Connects via: fleet )
 
-PHASE 3: Add _________________________
-         (Completes: __________________)
+PHASE 3: Add fleet
+         (Completes: rental system)
 
-STOP CRITERIA: _______________________
+STOP CRITERIA:
+  -    rent only existing and available vehicles to existing customer
+  -   after the rental period is over vehicles become available
+  -   
 
 -
 

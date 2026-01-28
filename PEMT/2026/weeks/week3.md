@@ -34,7 +34,7 @@ p2
     -   biggest obstacle:
 )
 
-8.1(
+15.1(
 p1
     -   mistake count:
     -   nature of mistake
@@ -45,19 +45,7 @@ p2
     -   biggest obstacle:
 )
 
-9.1(
-p1
-    -   mistake count:
-    -   nature of mistake
-    -   biggest obstacle: 
-p2
-    -    mistake count: 
-    -   nature of mistake
-    -   biggest obstacle:
-)
-
-
-10.1(
+16.1(
 p1
     -   mistake count:
     -   nature of mistake
@@ -69,7 +57,19 @@ p2
 )
 
 
-11.1(
+17.1(
+p1
+    -   mistake count:
+    -   nature of mistake
+    -   biggest obstacle: 
+p2
+    -    mistake count: 
+    -   nature of mistake
+    -   biggest obstacle:
+)
+
+
+18.1(
 p1
     -   mistake count:
     -   nature of mistake
