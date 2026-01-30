@@ -219,4 +219,19 @@ school day
 home
     -   catching up with my own tasks 
         -   will figure out how to speed up my python mooc
-    -   p1 
+    -   p1 done
+    -   p2 done
+
+29.1/26029
+etäpv
+    -   numpy day it was nice as numpy is not so familiar with me 
+home
+    -   p1 not ready
+    -   p2 not ready
+
+30.1/26030
+home
+    -   reading book efficient python I feel like in just hours I gained years of python experience 
+        -   next I need to generate myself tasks so I can implement what I learned there is so much I missed about python 
+    -   p1 done
+    -   p2 done
