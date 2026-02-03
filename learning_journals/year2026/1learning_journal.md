@@ -235,3 +235,29 @@ home
         -   next I need to generate myself tasks so I can implement what I learned there is so much I missed about python 
     -   p1 done
     -   p2 done
+
+31.1/26031
+PEMT
+    -   done
+    
+1.2/26032
+    -   read the book
+
+2.2/26033
+school day
+    -   scikit learn day
+    -   am lacking quite a bit in scikit library
+home
+    -   p1 done 
+    -   p2 incomplete
+
+3.2/26034
+school day
+    -   API day
+        -   I am dissatisfied with my learning today 
+            -   I was too arrogantly assuming I knew what was going on but I didnt
+                -   I need to learn seriously constantly irregardless if I think I know or not
+                -   might change my sitting place to improve my learning 
+home 
+    -   p1 not ready
+    -   p2  done

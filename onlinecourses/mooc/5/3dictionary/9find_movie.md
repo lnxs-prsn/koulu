@@ -10,7 +10,7 @@ Sample output
 [{"name": "Gone with the Python", "director": "Victor Pything", "year": 2017, "runtime": 116}, {"name": "Pythons on a Plane", "director": "Renny Pytholin", "year": 2001, "runtime": 94}]
 LOGICAL OPERATIONS
    -   find_movies(db: list, search_term:str)
-       -   found_movies = [db[x], if ]
+       -   found_movies = [db[x] if search_term in db[x] for x in db]
 1. yes
    1. 2 for loops
    2. if statement
