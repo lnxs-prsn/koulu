@@ -1,15 +1,3 @@
-start from logical operations of the problem
-from the logical operations derive patters 
-
-TRY TO LEARN CORRECT PATTERN TERMINOLOGY
-    -   long term goal no rush!
-
-CORE OF PATTERN RECOGNITION
-    -   The habit of interrogating MY own examples for invariant structure.
-    -   An invariant is something that stays the same across all cases 
-        -    the unchanging core beneath surface differences.
-   -    "why this and not that? is there something forcing it to be this way?"
-
 1. Do any steps repeat?
 (Not "is there a loop?" but: what decision or action happens the same way for each item?)
 2. Do some steps always happen together?
@@ -24,4 +12,3 @@ CORE OF PATTERN RECOGNITION
 (Does your sentence use general actions ("keep items matching…") not specific things ("match word to movies")?)
 7. If you covered up the details, would the shape of the process look familiar?
 (What are the 3 core verbs? Example: "scan → test → collect" not "access → search → append")
-!!!!!!

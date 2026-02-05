@@ -261,3 +261,19 @@ school day
 home 
     -   p1 not ready
     -   p2  done
+
+4.2/26035
+day off
+    -   went to startups and asked if I could do my training period in there 
+        -   next stage I will send them my information
+home
+    -   p1 done
+        -   also improved the template so from now on it will guide me to find real patterns
+    -   p2  not ready
+
+5.2/26036
+school day
+    -   today was the initial robot day
+home
+    -   p1  done
+    -   p2  done   ( its lot better)

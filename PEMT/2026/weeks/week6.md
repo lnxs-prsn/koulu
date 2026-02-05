@@ -22,14 +22,14 @@ p2
 
 3.2(
 p1
-    -   mistake count:(!1)
+    -   mistake count:(!1, q1,q2,q3
     -   nature of mistake
     -   biggest obstacle:
         -   ! logical operation flaw did not initialize smallest as 0
         -   q1 incorrect not iteration and comparison but compare current to best so far
         -   q2 incorrect its not iteration and comparsion question is about what are the chunks
             -   running minimum pattern is correct answer 
-        -   q3 
+        -   q3 ⚠️ Surface-level
 p2
     -    mistake count: p1,p3) total mistakes 10
     -   nature of mistake
@@ -41,8 +41,12 @@ p2
 
 4.2(
 p1
-    -   mistake count:
+    -   mistake count: q4,q5,q6,q7
     -   nature of mistake
+        -   q4 The cycle isn't "loop repeats" — it's "examine item → update state → advance" 
+        -   q5  correct answer is reduction, not comparing to smallest
+        -   q6  ⚠️ Vague / implementation-focused
+        -   q7  Missing one critical element: stateful accumulation. 
     -   biggest obstacle: 
 p2
     -    mistake count: 
@@ -52,12 +56,22 @@ p2
 
 5.2(
 p1
-    -   mistake count:
+    -   mistake count:(q3, q7)
     -   nature of mistake
+        -   q3 correct pattern is predicate = yes no applied to all
+        -   q7 the filter is THE PATTERN and verbs are traverse, test, collect
     -   biggest obstacle: 
 p2
-    -    mistake count: 
+    -    mistake count: () total mistakes 7
     -   nature of mistake
+        -   part  1: Misidentified the "simplest version"
+            -   . The simplest version must include the coordinator (Gym) because booking is an interaction — not a property of Member/FitnessClass alone.      Without Gym, no booking can occur.
+        -   part 2 the booking is passive data class it does not have actions 
+        -   part4 phases 1 should build first the independent classes the tests are also too vague and unmeasurable
+        -   part4 phase 3 need to tell where do solutions to challenges live who is their authority 
+            -   in this case the gym needs to verify everything before creating a booking 
+        -   part 4 stop criteria is not repetition of the part 1 last section but like this 
+            -    Core → Validation → Reporting
     -   biggest obstacle:
 )
 
