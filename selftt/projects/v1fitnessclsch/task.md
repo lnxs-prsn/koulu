@@ -144,12 +144,10 @@ PHASE 3: Add ensuring capacity limits of class, prevent members booking twice an
 
 STEP 6: Define STOP CRITERIA
 From User Requirements in PART 1: What should users be able to DO?
+1. :create member, trainer, 
+2. :have an trainer in fitnessclass and member booking an fitness class
+3. : ensure that there is no over booking of classes. no double booking and only for members 
 
-✅ ________________________
-
-✅ ________________________
-
-✅ ________________________
 
 
 consider fro the step 6 this kind of organizing
@@ -163,16 +161,19 @@ Core operations (create, deposit, withdraw)
 
 ### **PART 4: IMPLEMENTATION PLAN**
 
-PHASE 1: Build ________________________
-         (Test: Can it ________________?)
+PHASE 1: Build member, trainer, fitness class, booking
+(Test: Can they interact? ← Tests foundation)
 
-PHASE 2: Add _________________________
-         (Connects via: _______________)
+PHASE 2: Add gym
+(Connects via: coordination ← Uses Step 3 pattern)
 
-PHASE 3: Add _________________________
-         (Completes: __________________)
+PHASE 3: Add ensuring capacity limits of class, prevent members booking twice and check members before booking them a class
+(Completes: the program ← Solves Step 4 challenge)
 
-STOP CRITERIA: _______________________
+STOP CRITERIA: 
+1. :create member, trainer, 
+2. :have an trainer in fitnessclass and member booking an fitness class
+3. : ensure that there is no over booking of classes. no double booking and only for members 
 
 -
 

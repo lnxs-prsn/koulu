@@ -277,3 +277,11 @@ school day
 home
     -   p1  done
     -   p2  done   ( its lot better)
+
+6.2/26037
+school day
+    -   today wrapped up the api and began fastapi
+        -   there is home work for the api section so today I will focus on it
+home
+    -   home work api task
+        -   
