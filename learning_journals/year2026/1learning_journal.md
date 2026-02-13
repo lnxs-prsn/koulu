@@ -239,49 +239,6 @@ home
 31.1/26031
 PEMT
     -   done
-    
-1.2/26032
-    -   read the book
 
-2.2/26033
-school day
-    -   scikit learn day
-    -   am lacking quite a bit in scikit library
-home
-    -   p1 done 
-    -   p2 incomplete
 
-3.2/26034
-school day
-    -   API day
-        -   I am dissatisfied with my learning today 
-            -   I was too arrogantly assuming I knew what was going on but I didnt
-                -   I need to learn seriously constantly irregardless if I think I know or not
-                -   might change my sitting place to improve my learning 
-home 
-    -   p1 not ready
-    -   p2  done
-
-4.2/26035
-day off
-    -   went to startups and asked if I could do my training period in there 
-        -   next stage I will send them my information
-home
-    -   p1 done
-        -   also improved the template so from now on it will guide me to find real patterns
-    -   p2  not ready
-
-5.2/26036
-school day
-    -   today was the initial robot day
-home
-    -   p1  done
-    -   p2  done   ( its lot better)
-
-6.2/26037
-school day
-    -   today wrapped up the api and began fastapi
-        -   there is home work for the api section so today I will focus on it
-home
-    -   home work api task
-        -   
+this was an productive month I established the procedural thinking templates and the OOP templates and achieved observable progress with them.

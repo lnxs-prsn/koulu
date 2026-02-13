@@ -110,3 +110,18 @@ etäpv
     -   originally intended this day to be a day for training place searching but I really need project to showcase my current knowledge
     -   todays goal for the project get all possible data from the fmi to pandas data frame if possible figure out how 
     -   pydantic works 
+
+12.2/26043
+school
+    -   last django day it was pleasant cemented what I new and verified some questions that I had 
+home
+    -   now I have pipeline to get data from fmi and clean it with pandas also got docker running 
+    -   next I will try to get data from pandas to postgres 
+        -   and use pandas that no duplicates exits
+
+13.2/26044
+school 
+    -   robot day
+        -   it was as cool as I expected but there was not enough for me to play with them so I could understand 
+home 
+    -   the postgress section of the project is left
