@@ -125,3 +125,21 @@ school
         -   it was as cool as I expected but there was not enough for me to play with them so I could understand 
 home 
     -   the postgress section of the project is left
+
+
+14.2/26045 60 min
+    -   continued the data engineering project
+    -   progressing more smoothly now that plan is being followed
+    -   book reading for is also finished
+
+15.2/26046/ 60 min
+PEMT    
+    -   finished this weeks pemt
+        -   dod and the ps are challenging to define but as this is first project its likely something I will figure out later
+
+16.2/26047
+school
+    -   today was second robot day NAO V6 was cooler than the lego
+    -   but as there was only robot for 8 people I really did not get to try many things I wanted
+        -   one flaw in my thinking is that I get stuck trying to solve irrelevant problems or I try something that I cannot verify easily the execution
+        -   feasibility
