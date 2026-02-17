@@ -143,3 +143,15 @@ school
     -   but as there was only robot for 8 people I really did not get to try many things I wanted
         -   one flaw in my thinking is that I get stuck trying to solve irrelevant problems or I try something that I cannot verify easily the execution
         -   feasibility
+home
+    -   continued the project to showcase my data engineering knowledge
+
+17.2/26048
+school
+    -   today was the networking and sockets 
+    -   I have now more coherent puzzle in context of computer science
+home 
+    -   project to showcase my data engineering knowledge is up in the github
+    -   https://github.com/lnxs-prsn/data_engineering_001/
+    -   still has lot to do but I think I will leave this as 001 now and come back later to make it more 
+        -   robust
