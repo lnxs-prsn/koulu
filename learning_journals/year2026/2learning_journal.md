@@ -150,8 +150,53 @@ home
 school
     -   today was the networking and sockets 
     -   I have now more coherent puzzle in context of computer science
+    -   I had an hunch about the ip,tcp and udp now I have better grasp about them
 home 
     -   project to showcase my data engineering knowledge is up in the github
     -   https://github.com/lnxs-prsn/data_engineering_001/
     -   still has lot to do but I think I will leave this as 001 now and come back later to make it more 
         -   robust
+
+18.2/26049
+school
+    -   we continued with the networking
+    -   we went deeper in the ipv4 and ipv6 
+        -   I think I will make my own projects solely for the ipv6 I get feeling its better to do that 
+    -   its not fully yet clear for me how network routing exactly works ( I obviously understand it conceptually but there is still feeling of not understanding issue is this I could explain it but not with my own words I can only parrot when explaining it)
+    -   
+    -   after the lunch we reached the python socket library
+    -   I made it work with jupyter I have no idea how I made it
+home
+    -   The mvp of the data engineering project is ready and I applied for summer job I really enjoyed working on it
+        -   it reminded me about years 2022 -2023 when I had datacamp subscription
+    -   I asked feedback from classmate and he luckily had time and I got better insights on the project than I could have hoped for on my own 
+    -   luckily I asked wasnt sure if he had time as we are all searching for an training place to intern at
+
+
+19.2/26050
+school
+    -   worked only on python sockets today for some reason my jupyter usage for sockets refused to work which made me waste bit of time 
+    -   luckily seatmates got me back to my senses and I began using the cli for the socket project
+    -   we made small server and used threads to enable it to accept more than one connection apparently this is how we can make live chat
+    -   I am exited about what else I can do with it 
+home 
+    -   continued with the small weather pipeline its very simplfied but I intend it to be the 001 of the data engineering projects 
+        -   made improvements according to classmates suggestions and commented better it looks lot better.
+
+20.2/26051
+selfstudy
+    -   went out to search for training place I was not really healthy for that task and top of it I was fasting so result was bit dissapointing 
+    -   I got one place where I can send cv (for some reasong feeling insecure about it but its to be expected confidence is built by results)
+    -   I have problem with my bank which I expected to resolve in 20 min but for some reason it took lot longer
+    -   I was really not coherent for the day aroung 15 I came home and just fell sleep
+    -   later in the evening worked on the data engineering project I came idea about testing I learned basic of it when I was learning how to use pythons web3 library and the solidity 
+
+21.2/26052  60min
+    -   got the basics of the test and realized that to do actual tests I need to modularize a lot more so my functions exist for one testable purpose 
+        -   for example the clean_data() does 2 things it parses and it cleans data and puts it to pandas dataframe (might actually be 3 things)
+        -   so if I want to test parsing there is no way for me to test it because my current rigid and hard coded project will return error if in put data does not match the expected data to the dot.
+    -   still bit under the weather 
+
+22.2/26053
+PEMT
+    -   
