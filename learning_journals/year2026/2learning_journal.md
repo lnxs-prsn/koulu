@@ -199,4 +199,88 @@ selfstudy
 
 22.2/26053
 PEMT
-    -   
+    -   done with the PEMT for this week
+
+23.2/26054
+school
+    -   we did netscraping 
+        -   it was very familiar with me as I have done it a lot used to scrape work places from different websites 
+        -   unfortunately for me we used selenium which is very familiar with me so on the class I focused on figuring out scrapy usage 
+        -   its quite usable but its lot different than the selenium selenium is for scraping js heavy sites while scrapy by default is useful only for 
+        -   static sites.
+        -   self evaluation 
+            -   by end of the course I have shifted from attentive class attendance to adventuring on my own
+                -   maybe things are too simple or they are so complex that its not easy to keep up?
+home
+    -   kept working on the project that I made to help me to get summer job as data engineer at the verkkokauppa
+    -   I unfortunately have stopped journaling which is regrettable but when I program on project 
+    -   without checklists anything outside of the programming drops of the head.
+    -   as a such I dont know what I programmed on that day or what challenges I had on that day all I know is that I solved them
+        -   might have been testing and fixing of the errors found by classmate.
+
+24.2/26055
+school
+    -   about ai tools available to use 
+    -   it was very infomative class but we did not use any tools or try anything so it was likely intended to be 
+    -   updating our information about the AI 
+    -   I learned humanity at the moment does not know exactly why llms work so well as they should not work as well as they are nor is it known how they produce 
+    -   logical appearing output
+home
+    -   continued the project 
+    -   proceeded to do testing and refactoring the project
+
+25.2/26056
+school
+    -   we did learned about how to turn python file to executable 
+    -   I already knew it
+        -   I got conformation that pyinstaller is the best and there is not real free alternative to it
+home 
+    -   I found out that I did not proceed to next interview stage for my application for the data engineering job
+    -   I did lot better than I believed I did. I know this because the recruiter for the verkkokauppa gave me feed back that is worth gold
+        -   to improve now:
+            -   ReadMe was confusing and had irrelevant data, 
+                -   readme should direct to code that I want to recruiter to review
+                -   so pipe line would be like this 
+                -   I send application with link to repo I want recruiter to review 
+                    -   in the repo readme section I direct to clear code to read
+        -   am truly grateful for the feedback I got from the recruiter there should be some website 
+        -   where we applicants could reward mvp recruiters
+    -   I fixed the readme file same day but forgot to push 
+        -   then I began purging irrelevant repos from public section from now on only repos that contribute for my employment will be left on the 
+        -   public repo section
+
+26.2/26057
+school
+    -   we did test planning 
+        -   it was not as I assumed it to be 
+        -   I have done bit of testing my self but we did not really get general rules of thump I was hoping 
+        -   or clear mechanics that we would tune to fit our different project
+        -   we did use unittest and I learned that they are supposed to be used as an class instead of as I use them as part of pytest slice
+    -   I hope they add this as part of python section now its separate section where concepts of testing is taught without 
+        -   connection to actual code mechanics 
+home 
+    -   today I went to masjid to help friend/associate I made in my previous work he wanted help with dev enviroment set up with python 
+        -   goal was to install for him git, python, vscode and setup for him github account then teach him how to use ai to produce mini projects 
+        -   unfortunately he had unexpected meeting so we postponed to tomorrow
+        -   I finally pushed the code that I did yesterday
+
+27.2/26058
+school
+    -   today was self study at the last minute luckily I checked my email else  I would have gone to school for nothing
+    -   did self study tried to learn on my own how to test database code in my data_engineering_001 repo 
+    -   I made simple mock test but I dont yet know how I should proceed integration test would be easy but
+    -   I dont know if its proper way of doing it ?
+home 
+    -   after self study period I went to masjid again as we agreed with the associate 
+        -   unfortunately he did not show up today either but as its ramadan I did  not take it to the heart as there was likely some very important reason
+        -   as he appears quite respectable person in my observation 
+    -   but luckily for me I got to play with my laptop after a while I had not used it for a while so it was so badly in need of updates that 
+        -   it allowed only partial updates which broke the system so I kept resolving it I think I will reinstall the external harddrive in the weekend if I have time from reading the python book
+
+28.2/26059  60min
+    -   wrote all the learning journal days that I had not 
+    -   got distracted few times 
+    -   also I dont know how to make my data_engineering_001 complete
+    -   am thinking of either expanding the scope or adding few query methods that get data from the tables in usable format
+        -   I probably should brainstorm with AI
+        -   
