@@ -283,4 +283,12 @@ home
     -   also I dont know how to make my data_engineering_001 complete
     -   am thinking of either expanding the scope or adding few query methods that get data from the tables in usable format
         -   I probably should brainstorm with AI
-        -   
+
+
+month has come to end I need to figure out how to move from the onedrive directories that I could not figure out how to fit here 
+and fit them here somehow.
+
+from now on I want to prepare for the future learning preferably week ahead.
+    -   so if next week is agile methods then I want to prepare this weeks wednesday for that class
+-   
+
